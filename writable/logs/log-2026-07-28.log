@@ -1,0 +1,1102 @@
+DEBUG - 2026-07-28 09:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 09:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 09:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 09:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 09:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-28 09:49:13 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 09:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-28 09:59:35 --> ErrorException: Undefined property: App\Controllers\admins\Cms::$input
+[Method: POST, Route: admins/import_csv]
+in APPPATH\Controllers\admins\Cms.php on line 222.
+ 1 APPPATH\Controllers\admins\Cms.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\admins\\Cms::$input', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\admins\\Cms.php', 222)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->import_csv()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 10:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 10:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 10:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 10:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 10:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 10:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 10:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 10:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 10:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 10:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 10:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 10:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-28 10:33:08 --> mysqli_sql_exception: Unknown column 'vis.vendor_code' in 'on clause' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `item_no...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `item_no...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `item_no...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `item_no...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(120): App\Models\admins\Cms_model->getJoin('tbl_items items', 'tbl_vendor ven', 'item_no, item_c...', 'vis.vendor_code...')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_items()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-07-28 10:33:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'vis.vendor_code' in 'on clause'
+[Method: POST, Route: admins/fetch_items]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `item_no`, `item_code`, `ext_desc`, `comm_rate`, `date_uploaded`, `ven`.`vendor_code`, `vendor_name`
+FROM `tbl_items` `items`
+JOIN `tbl_vendor` `ven` ON `vis`.`vendor_code` = `ven`.`vendor_code`', [], false)
+ 2 APPPATH\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\admins\Cms.php(120): App\Models\admins\Cms_model->getJoin('tbl_items items', 'tbl_vendor ven', 'item_no, item_code, ext_desc, comm_rate, date_uploaded, ven.vendor_code, vendor_name', 'vis.vendor_code = ven.vendor_code')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_items()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-28 10:33:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'vis.vendor_code' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `item_no`, `item_code`, `ext_desc`, `comm_rate`, `date_uploaded`, `ven`.`vendor_code`, `vendor_name`
+FROM `tbl_items` `items`
+JOIN `tbl_vendor` `ven` ON `vis`.`vendor_code` = `ven`.`vendor_code`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `item_no`, `item_code`, `ext_desc`, `comm_rate`, `date_uploaded`, `ven`.`vendor_code`, `vendor_name`
+FROM `tbl_items` `items`
+JOIN `tbl_vendor` `ven` ON `vis`.`vendor_code` = `ven`.`vendor_code`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `item_no`, `item_code`, `ext_desc`, `comm_rate`, `date_uploaded`, `ven`.`vendor_code`, `vendor_name`
+FROM `tbl_items` `items`
+JOIN `tbl_vendor` `ven` ON `vis`.`vendor_code` = `ven`.`vendor_code`', [], false)
+ 4 APPPATH\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\admins\Cms.php(120): App\Models\admins\Cms_model->getJoin('tbl_items items', 'tbl_vendor ven', 'item_no, item_code, ext_desc, comm_rate, date_uploaded, ven.vendor_code, vendor_name', 'vis.vendor_code = ven.vendor_code')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_items()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-28 10:33:08 --> [Caused by] mysqli_sql_exception: Unknown column 'vis.vendor_code' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `item_no`, `item_code`, `ext_desc`, `comm_rate`, `date_uploaded`, `ven`.`vendor_code`, `vendor_name`
+FROM `tbl_items` `items`
+JOIN `tbl_vendor` `ven` ON `vis`.`vendor_code` = `ven`.`vendor_code`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `item_no`, `item_code`, `ext_desc`, `comm_rate`, `date_uploaded`, `ven`.`vendor_code`, `vendor_name`
+FROM `tbl_items` `items`
+JOIN `tbl_vendor` `ven` ON `vis`.`vendor_code` = `ven`.`vendor_code`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `item_no`, `item_code`, `ext_desc`, `comm_rate`, `date_uploaded`, `ven`.`vendor_code`, `vendor_name`
+FROM `tbl_items` `items`
+JOIN `tbl_vendor` `ven` ON `vis`.`vendor_code` = `ven`.`vendor_code`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `item_no`, `item_code`, `ext_desc`, `comm_rate`, `date_uploaded`, `ven`.`vendor_code`, `vendor_name`
+FROM `tbl_items` `items`
+JOIN `tbl_vendor` `ven` ON `vis`.`vendor_code` = `ven`.`vendor_code`', [], false)
+ 5 APPPATH\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admins\Cms.php(120): App\Models\admins\Cms_model->getJoin('tbl_items items', 'tbl_vendor ven', 'item_no, item_code, ext_desc, comm_rate, date_uploaded, ven.vendor_code, vendor_name', 'vis.vendor_code = ven.vendor_code')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_items()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 10:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 10:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 10:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 10:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 10:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-28 10:42:12 --> ErrorException: Undefined array key "vendor_name"
+[Method: POST, Route: admins/fetch_po]
+in APPPATH\Controllers\admins\Cms.php on line 112.
+ 1 APPPATH\Controllers\admins\Cms.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_name"', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\admins\\Cms.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_po()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 10:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-28 10:42:17 --> ErrorException: Undefined array key "vendor_name"
+[Method: POST, Route: admins/fetch_po]
+in APPPATH\Controllers\admins\Cms.php on line 112.
+ 1 APPPATH\Controllers\admins\Cms.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_name"', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\admins\\Cms.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_po()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 10:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-28 10:42:27 --> ErrorException: Undefined array key "vendor_name"
+[Method: POST, Route: admins/fetch_po]
+in APPPATH\Controllers\admins\Cms.php on line 112.
+ 1 APPPATH\Controllers\admins\Cms.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_name"', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\admins\\Cms.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_po()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 10:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-28 10:43:06 --> ErrorException: Undefined array key "vendor_name"
+[Method: POST, Route: admins/fetch_po]
+in APPPATH\Controllers\admins\Cms.php on line 112.
+ 1 APPPATH\Controllers\admins\Cms.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_name"', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\admins\\Cms.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_po()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 10:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-28 10:43:55 --> ErrorException: Undefined array key "vendor_name"
+[Method: POST, Route: admins/fetch_po]
+in APPPATH\Controllers\admins\Cms.php on line 112.
+ 1 APPPATH\Controllers\admins\Cms.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_name"', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\admins\\Cms.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_po()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 10:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-28 10:45:08 --> ErrorException: Undefined array key "vendor_name"
+[Method: POST, Route: admins/fetch_po]
+in APPPATH\Controllers\admins\Cms.php on line 112.
+ 1 APPPATH\Controllers\admins\Cms.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_name"', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\admins\\Cms.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_po()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 10:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-28 10:46:44 --> ErrorException: Undefined array key "vendor_name"
+[Method: POST, Route: admins/fetch_po]
+in APPPATH\Controllers\admins\Cms.php on line 112.
+ 1 APPPATH\Controllers\admins\Cms.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor_name"', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\admins\\Cms.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_po()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 10:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-28 10:47:01 --> ErrorException: Undefined array key "name"
+[Method: POST, Route: admins/fetch_po]
+in APPPATH\Controllers\admins\Cms.php on line 113.
+ 1 APPPATH\Controllers\admins\Cms.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\admins\\Cms.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_po()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 10:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-28 10:47:24 --> mysqli_sql_exception: Unknown column 'dept_name' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `ref_no`...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ref_no`...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ref_no`...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ref_no`...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\admins\Cms_model.php(115): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(103): App\Models\admins\Cms_model->getJoinsAll('tbl_po_requisit...', 'ref_no, req.sta...', Array)
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_po()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-07-28 10:47:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dept_name' in 'field list'
+[Method: POST, Route: admins/fetch_po]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`', [], false)
+ 2 APPPATH\Models\admins\Cms_model.php(115): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\admins\Cms.php(103): App\Models\admins\Cms_model->getJoinsAll('tbl_po_requisition req', 'ref_no, req.status, date_requested, deptcode, dept_name, compcode, name, ven.vendor_code', [])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_po()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-28 10:47:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dept_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`', [], false)
+ 4 APPPATH\Models\admins\Cms_model.php(115): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\admins\Cms.php(103): App\Models\admins\Cms_model->getJoinsAll('tbl_po_requisition req', 'ref_no, req.status, date_requested, deptcode, dept_name, compcode, name, ven.vendor_code', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_po()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-28 10:47:25 --> [Caused by] mysqli_sql_exception: Unknown column 'dept_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`', [], false)
+ 5 APPPATH\Models\admins\Cms_model.php(115): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admins\Cms.php(103): App\Models\admins\Cms_model->getJoinsAll('tbl_po_requisition req', 'ref_no, req.status, date_requested, deptcode, dept_name, compcode, name, ven.vendor_code', [])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_po()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 10:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-28 10:50:06 --> mysqli_sql_exception: Unknown column 'dept_name' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `ref_no`...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ref_no`...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ref_no`...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ref_no`...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\admins\Cms_model.php(115): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(103): App\Models\admins\Cms_model->getJoinsAll('tbl_po_requisit...', 'ref_no, req.sta...', Array)
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_po()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-07-28 10:50:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dept_name' in 'field list'
+[Method: POST, Route: admins/fetch_po]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`', [], false)
+ 2 APPPATH\Models\admins\Cms_model.php(115): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\admins\Cms.php(103): App\Models\admins\Cms_model->getJoinsAll('tbl_po_requisition req', 'ref_no, req.status, date_requested, deptcode, dept_name, compcode, name, ven.vendor_code', [])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_po()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-28 10:50:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dept_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`', [], false)
+ 4 APPPATH\Models\admins\Cms_model.php(115): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\admins\Cms.php(103): App\Models\admins\Cms_model->getJoinsAll('tbl_po_requisition req', 'ref_no, req.status, date_requested, deptcode, dept_name, compcode, name, ven.vendor_code', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_po()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-28 10:50:06 --> [Caused by] mysqli_sql_exception: Unknown column 'dept_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`', [], false)
+ 5 APPPATH\Models\admins\Cms_model.php(115): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admins\Cms.php(103): App\Models\admins\Cms_model->getJoinsAll('tbl_po_requisition req', 'ref_no, req.status, date_requested, deptcode, dept_name, compcode, name, ven.vendor_code', [])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_po()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 10:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-28 10:54:18 --> mysqli_sql_exception: Unknown column 'dept_name' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `ref_no`...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ref_no`...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ref_no`...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ref_no`...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\admins\Cms_model.php(108): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(111): App\Models\admins\Cms_model->getJoinTwo('tbl_po_requisit...', 'tbl_vendor ven', 'tbl_code_compan...', 'ref_no, req.sta...', 'req.vendor_code...', 'req.compcode = ...')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_po()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-07-28 10:54:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dept_name' in 'field list'
+[Method: POST, Route: admins/fetch_po]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`', [], false)
+ 2 APPPATH\Models\admins\Cms_model.php(108): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\admins\Cms.php(111): App\Models\admins\Cms_model->getJoinTwo('tbl_po_requisition req', 'tbl_vendor ven', 'tbl_code_company comp', 'ref_no, req.status, date_requested, deptcode, dept_name, compcode, name, ven.vendor_code', 'req.vendor_code = ven.vendor_code', 'req.compcode = comp.company_code')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_po()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-28 10:54:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dept_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`', [], false)
+ 4 APPPATH\Models\admins\Cms_model.php(108): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\admins\Cms.php(111): App\Models\admins\Cms_model->getJoinTwo('tbl_po_requisition req', 'tbl_vendor ven', 'tbl_code_company comp', 'ref_no, req.status, date_requested, deptcode, dept_name, compcode, name, ven.vendor_code', 'req.vendor_code = ven.vendor_code', 'req.compcode = comp.company_code')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_po()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-28 10:54:18 --> [Caused by] mysqli_sql_exception: Unknown column 'dept_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ref_no`, `req`.`status`, `date_requested`, `deptcode`, `dept_name`, `compcode`, `name`, `ven`.`vendor_code`
+FROM `tbl_po_requisition` `req`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`', [], false)
+ 5 APPPATH\Models\admins\Cms_model.php(108): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admins\Cms.php(111): App\Models\admins\Cms_model->getJoinTwo('tbl_po_requisition req', 'tbl_vendor ven', 'tbl_code_company comp', 'ref_no, req.status, date_requested, deptcode, dept_name, compcode, name, ven.vendor_code', 'req.vendor_code = ven.vendor_code', 'req.compcode = comp.company_code')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_po()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 10:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 11:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 11:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 11:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 11:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 11:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 11:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 11:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 11:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-28 11:40:03 --> mysqli_sql_exception: Column 'dept_code' in field list is ambiguous in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `ded_no`...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ded_no`...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ded_no`...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ded_no`...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\admins\Cms_model.php(120): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(116): App\Models\admins\Cms_model->getJoinThree('tbl_deductions ...', 'tbl_vendor ven', 'tbl_code_compan...', 'tbl_code_depart...', 'ded_no, doc_no,...', 'req.vendor_code...', 'req.compcode = ...', 'req.deptcode = ...')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_deduction()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-07-28 11:40:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'dept_code' in field list is ambiguous
+[Method: POST, Route: admins/fetch_deduction]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ded_no`, `doc_no`, `posting_date`, `deduction_details`, `amount`, `dept_code`, `dept_name`, `comp_code`, `name`, `ven`.`vendor_code`, `ven`.`vendor_name`
+FROM `tbl_deductions` `ded`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`
+JOIN `tbl_code_department` `dept` ON `req`.`deptcode` = `dept`.`dept_code`', [], false)
+ 2 APPPATH\Models\admins\Cms_model.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\admins\Cms.php(116): App\Models\admins\Cms_model->getJoinThree('tbl_deductions ded', 'tbl_vendor ven', 'tbl_code_company comp', 'tbl_code_department dept', 'ded_no, doc_no, posting_date, deduction_details, amount, dept_code, dept_name, 
+                            comp_code, name, ven.vendor_code, ven.vendor_name', 'req.vendor_code = ven.vendor_code', 'req.compcode = comp.company_code', 'req.deptcode = dept.dept_code')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_deduction()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-28 11:40:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'dept_code' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ded_no`, `doc_no`, `posting_date`, `deduction_details`, `amount`, `dept_code`, `dept_name`, `comp_code`, `name`, `ven`.`vendor_code`, `ven`.`vendor_name`
+FROM `tbl_deductions` `ded`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`
+JOIN `tbl_code_department` `dept` ON `req`.`deptcode` = `dept`.`dept_code`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ded_no`, `doc_no`, `posting_date`, `deduction_details`, `amount`, `dept_code`, `dept_name`, `comp_code`, `name`, `ven`.`vendor_code`, `ven`.`vendor_name`
+FROM `tbl_deductions` `ded`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`
+JOIN `tbl_code_department` `dept` ON `req`.`deptcode` = `dept`.`dept_code`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ded_no`, `doc_no`, `posting_date`, `deduction_details`, `amount`, `dept_code`, `dept_name`, `comp_code`, `name`, `ven`.`vendor_code`, `ven`.`vendor_name`
+FROM `tbl_deductions` `ded`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`
+JOIN `tbl_code_department` `dept` ON `req`.`deptcode` = `dept`.`dept_code`', [], false)
+ 4 APPPATH\Models\admins\Cms_model.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\admins\Cms.php(116): App\Models\admins\Cms_model->getJoinThree('tbl_deductions ded', 'tbl_vendor ven', 'tbl_code_company comp', 'tbl_code_department dept', 'ded_no, doc_no, posting_date, deduction_details, amount, dept_code, dept_name, 
+                            comp_code, name, ven.vendor_code, ven.vendor_name', 'req.vendor_code = ven.vendor_code', 'req.compcode = comp.company_code', 'req.deptcode = dept.dept_code')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_deduction()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-28 11:40:03 --> [Caused by] mysqli_sql_exception: Column 'dept_code' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `ded_no`, `doc_no`, `posting_date`, `deduction_details`, `amount`, `dept_code`, `dept_name`, `comp_code`, `name`, `ven`.`vendor_code`, `ven`.`vendor_name`
+FROM `tbl_deductions` `ded`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`
+JOIN `tbl_code_department` `dept` ON `req`.`deptcode` = `dept`.`dept_code`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ded_no`, `doc_no`, `posting_date`, `deduction_details`, `amount`, `dept_code`, `dept_name`, `comp_code`, `name`, `ven`.`vendor_code`, `ven`.`vendor_name`
+FROM `tbl_deductions` `ded`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`
+JOIN `tbl_code_department` `dept` ON `req`.`deptcode` = `dept`.`dept_code`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ded_no`, `doc_no`, `posting_date`, `deduction_details`, `amount`, `dept_code`, `dept_name`, `comp_code`, `name`, `ven`.`vendor_code`, `ven`.`vendor_name`
+FROM `tbl_deductions` `ded`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`
+JOIN `tbl_code_department` `dept` ON `req`.`deptcode` = `dept`.`dept_code`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ded_no`, `doc_no`, `posting_date`, `deduction_details`, `amount`, `dept_code`, `dept_name`, `comp_code`, `name`, `ven`.`vendor_code`, `ven`.`vendor_name`
+FROM `tbl_deductions` `ded`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`
+JOIN `tbl_code_department` `dept` ON `req`.`deptcode` = `dept`.`dept_code`', [], false)
+ 5 APPPATH\Models\admins\Cms_model.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admins\Cms.php(116): App\Models\admins\Cms_model->getJoinThree('tbl_deductions ded', 'tbl_vendor ven', 'tbl_code_company comp', 'tbl_code_department dept', 'ded_no, doc_no, posting_date, deduction_details, amount, dept_code, dept_name, 
+                            comp_code, name, ven.vendor_code, ven.vendor_name', 'req.vendor_code = ven.vendor_code', 'req.compcode = comp.company_code', 'req.deptcode = dept.dept_code')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_deduction()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 11:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-28 11:40:12 --> mysqli_sql_exception: Column 'dept_code' in field list is ambiguous in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `ded_no`...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ded_no`...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ded_no`...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ded_no`...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\admins\Cms_model.php(120): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(116): App\Models\admins\Cms_model->getJoinThree('tbl_deductions ...', 'tbl_vendor ven', 'tbl_code_compan...', 'tbl_code_depart...', 'ded_no, doc_no,...', 'req.vendor_code...', 'req.compcode = ...', 'req.deptcode = ...')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_deduction()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-07-28 11:40:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'dept_code' in field list is ambiguous
+[Method: POST, Route: admins/fetch_deduction]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ded_no`, `doc_no`, `posting_date`, `deduction_details`, `amount`, `dept_code`, `dept_name`, `comp_code`, `name`, `ven`.`vendor_code`, `ven`.`vendor_name`
+FROM `tbl_deductions` `ded`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`
+JOIN `tbl_code_department` `dept` ON `req`.`deptcode` = `dept`.`dept_code`', [], false)
+ 2 APPPATH\Models\admins\Cms_model.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\admins\Cms.php(116): App\Models\admins\Cms_model->getJoinThree('tbl_deductions ded', 'tbl_vendor ven', 'tbl_code_company comp', 'tbl_code_department dept', 'ded_no, doc_no, posting_date, deduction_details, amount, dept_code, dept_name, 
+                            comp_code, name, ven.vendor_code, ven.vendor_name', 'req.vendor_code = ven.vendor_code', 'req.compcode = comp.company_code', 'req.deptcode = dept.dept_code')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_deduction()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-28 11:40:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'dept_code' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ded_no`, `doc_no`, `posting_date`, `deduction_details`, `amount`, `dept_code`, `dept_name`, `comp_code`, `name`, `ven`.`vendor_code`, `ven`.`vendor_name`
+FROM `tbl_deductions` `ded`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`
+JOIN `tbl_code_department` `dept` ON `req`.`deptcode` = `dept`.`dept_code`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ded_no`, `doc_no`, `posting_date`, `deduction_details`, `amount`, `dept_code`, `dept_name`, `comp_code`, `name`, `ven`.`vendor_code`, `ven`.`vendor_name`
+FROM `tbl_deductions` `ded`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`
+JOIN `tbl_code_department` `dept` ON `req`.`deptcode` = `dept`.`dept_code`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ded_no`, `doc_no`, `posting_date`, `deduction_details`, `amount`, `dept_code`, `dept_name`, `comp_code`, `name`, `ven`.`vendor_code`, `ven`.`vendor_name`
+FROM `tbl_deductions` `ded`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`
+JOIN `tbl_code_department` `dept` ON `req`.`deptcode` = `dept`.`dept_code`', [], false)
+ 4 APPPATH\Models\admins\Cms_model.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\admins\Cms.php(116): App\Models\admins\Cms_model->getJoinThree('tbl_deductions ded', 'tbl_vendor ven', 'tbl_code_company comp', 'tbl_code_department dept', 'ded_no, doc_no, posting_date, deduction_details, amount, dept_code, dept_name, 
+                            comp_code, name, ven.vendor_code, ven.vendor_name', 'req.vendor_code = ven.vendor_code', 'req.compcode = comp.company_code', 'req.deptcode = dept.dept_code')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_deduction()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-28 11:40:12 --> [Caused by] mysqli_sql_exception: Column 'dept_code' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `ded_no`, `doc_no`, `posting_date`, `deduction_details`, `amount`, `dept_code`, `dept_name`, `comp_code`, `name`, `ven`.`vendor_code`, `ven`.`vendor_name`
+FROM `tbl_deductions` `ded`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`
+JOIN `tbl_code_department` `dept` ON `req`.`deptcode` = `dept`.`dept_code`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ded_no`, `doc_no`, `posting_date`, `deduction_details`, `amount`, `dept_code`, `dept_name`, `comp_code`, `name`, `ven`.`vendor_code`, `ven`.`vendor_name`
+FROM `tbl_deductions` `ded`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`
+JOIN `tbl_code_department` `dept` ON `req`.`deptcode` = `dept`.`dept_code`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ded_no`, `doc_no`, `posting_date`, `deduction_details`, `amount`, `dept_code`, `dept_name`, `comp_code`, `name`, `ven`.`vendor_code`, `ven`.`vendor_name`
+FROM `tbl_deductions` `ded`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`
+JOIN `tbl_code_department` `dept` ON `req`.`deptcode` = `dept`.`dept_code`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ded_no`, `doc_no`, `posting_date`, `deduction_details`, `amount`, `dept_code`, `dept_name`, `comp_code`, `name`, `ven`.`vendor_code`, `ven`.`vendor_name`
+FROM `tbl_deductions` `ded`
+JOIN `tbl_vendor` `ven` ON `req`.`vendor_code` = `ven`.`vendor_code`
+JOIN `tbl_code_company` `comp` ON `req`.`compcode` = `comp`.`company_code`
+JOIN `tbl_code_department` `dept` ON `req`.`deptcode` = `dept`.`dept_code`', [], false)
+ 5 APPPATH\Models\admins\Cms_model.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admins\Cms.php(116): App\Models\admins\Cms_model->getJoinThree('tbl_deductions ded', 'tbl_vendor ven', 'tbl_code_company comp', 'tbl_code_department dept', 'ded_no, doc_no, posting_date, deduction_details, amount, dept_code, dept_name, 
+                            comp_code, name, ven.vendor_code, ven.vendor_name', 'req.vendor_code = ven.vendor_code', 'req.compcode = comp.company_code', 'req.deptcode = dept.dept_code')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_deduction()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 11:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 11:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 11:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 11:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 11:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 11:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 11:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 11:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 11:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 11:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 11:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 11:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 12:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-28 12:01:24 --> mysqli_sql_exception: Column 'vendor_name' in field list is ambiguous in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `cv_id`,...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cv_id`,...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cv_id`,...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `cv_id`,...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(205): App\Models\admins\Cms_model->getJoin('tbl_check_monit...', 'tbl_vendor ven', 'cv_id, cv_no, c...', 'check.vendor_co...')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_check_monitoring()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-07-28 12:01:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'vendor_name' in field list is ambiguous
+[Method: POST, Route: admins/fetch_check_monitoring]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`', [], false)
+ 2 APPPATH\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\admins\Cms.php(205): App\Models\admins\Cms_model->getJoin('tbl_check_monitoring check', 'tbl_vendor ven', 'cv_id, cv_no, cv_date, cv_status, collector_name, check.vendor_code, vendor_name', 'check.vendor_code = ven.vendor_code')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_check_monitoring()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-28 12:01:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'vendor_name' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`', [], false)
+ 4 APPPATH\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\admins\Cms.php(205): App\Models\admins\Cms_model->getJoin('tbl_check_monitoring check', 'tbl_vendor ven', 'cv_id, cv_no, cv_date, cv_status, collector_name, check.vendor_code, vendor_name', 'check.vendor_code = ven.vendor_code')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_check_monitoring()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-28 12:01:25 --> [Caused by] mysqli_sql_exception: Column 'vendor_name' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`', [], false)
+ 5 APPPATH\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admins\Cms.php(205): App\Models\admins\Cms_model->getJoin('tbl_check_monitoring check', 'tbl_vendor ven', 'cv_id, cv_no, cv_date, cv_status, collector_name, check.vendor_code, vendor_name', 'check.vendor_code = ven.vendor_code')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_check_monitoring()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 12:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-28 12:03:34 --> mysqli_sql_exception: Column 'vendor_name' in field list is ambiguous in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `cv_id`,...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cv_id`,...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cv_id`,...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `cv_id`,...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(205): App\Models\admins\Cms_model->getJoin('tbl_check_monit...', 'tbl_vendor ven', 'cv_id, cv_no, c...', 'check.vendor_co...')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_check_monitoring()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-07-28 12:03:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'vendor_name' in field list is ambiguous
+[Method: POST, Route: admins/fetch_check_monitoring]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`', [], false)
+ 2 APPPATH\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\admins\Cms.php(205): App\Models\admins\Cms_model->getJoin('tbl_check_monitoring check', 'tbl_vendor ven', 'cv_id, cv_no, cv_date, cv_status, collector_name, check.vendor_code, vendor_name', 'check.vendor_code = ven.vendor_code')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_check_monitoring()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-28 12:03:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'vendor_name' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`', [], false)
+ 4 APPPATH\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\admins\Cms.php(205): App\Models\admins\Cms_model->getJoin('tbl_check_monitoring check', 'tbl_vendor ven', 'cv_id, cv_no, cv_date, cv_status, collector_name, check.vendor_code, vendor_name', 'check.vendor_code = ven.vendor_code')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_check_monitoring()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-28 12:03:34 --> [Caused by] mysqli_sql_exception: Column 'vendor_name' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`', [], false)
+ 5 APPPATH\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admins\Cms.php(205): App\Models\admins\Cms_model->getJoin('tbl_check_monitoring check', 'tbl_vendor ven', 'cv_id, cv_no, cv_date, cv_status, collector_name, check.vendor_code, vendor_name', 'check.vendor_code = ven.vendor_code')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_check_monitoring()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 12:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-28 12:03:43 --> mysqli_sql_exception: Column 'vendor_name' in field list is ambiguous in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `cv_id`,...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cv_id`,...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cv_id`,...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `cv_id`,...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(205): App\Models\admins\Cms_model->getJoin('tbl_check_monit...', 'tbl_vendor ven', 'cv_id, cv_no, c...', 'check.vendor_co...')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_check_monitoring()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-07-28 12:03:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'vendor_name' in field list is ambiguous
+[Method: POST, Route: admins/fetch_check_monitoring]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`', [], false)
+ 2 APPPATH\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\admins\Cms.php(205): App\Models\admins\Cms_model->getJoin('tbl_check_monitoring check', 'tbl_vendor ven', 'cv_id, cv_no, cv_date, cv_status, collector_name, check.vendor_code, vendor_name', 'check.vendor_code = ven.vendor_code')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_check_monitoring()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-28 12:03:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'vendor_name' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`', [], false)
+ 4 APPPATH\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\admins\Cms.php(205): App\Models\admins\Cms_model->getJoin('tbl_check_monitoring check', 'tbl_vendor ven', 'cv_id, cv_no, cv_date, cv_status, collector_name, check.vendor_code, vendor_name', 'check.vendor_code = ven.vendor_code')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_check_monitoring()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-28 12:03:43 --> [Caused by] mysqli_sql_exception: Column 'vendor_name' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `cv_id`, `cv_no`, `cv_date`, `cv_status`, `collector_name`, `check`.`vendor_code`, `vendor_name`
+FROM `tbl_check_monitoring` `check`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`', [], false)
+ 5 APPPATH\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admins\Cms.php(205): App\Models\admins\Cms_model->getJoin('tbl_check_monitoring check', 'tbl_vendor ven', 'cv_id, cv_no, cv_date, cv_status, collector_name, check.vendor_code, vendor_name', 'check.vendor_code = ven.vendor_code')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_check_monitoring()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 12:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 13:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 13:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 13:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 13:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 16:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 16:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 16:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 16:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 16:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 16:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-28 16:03:16 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 16:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 16:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-28 16:06:17 --> mysqli_sql_exception: Unknown column 'check.vendor_code' in 'on clause' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `checkv_...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `checkv_...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `checkv_...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `checkv_...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(169): App\Models\admins\Cms_model->getJoin('tbl_check_vouch...', 'tbl_vendor ven', 'checkv_id, cv_n...', 'check.vendor_co...')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_check_voucher()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-07-28 16:06:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'check.vendor_code' in 'on clause'
+[Method: POST, Route: admins/fetch_check_voucher]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `checkv_id`, `cv_no`, `line_no`, `crf_no`, `doc_no`, `voucher`.`vendor_code`, `ven`.`vendor_name`, `invoice_no`
+FROM `tbl_check_voucher_line` `voucher`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`', [], false)
+ 2 APPPATH\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\admins\Cms.php(169): App\Models\admins\Cms_model->getJoin('tbl_check_voucher_line voucher', 'tbl_vendor ven', 'checkv_id, cv_no, line_no, crf_no, doc_no, voucher.vendor_code, ven.vendor_name, invoice_no', 'check.vendor_code = ven.vendor_code')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_check_voucher()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-28 16:06:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'check.vendor_code' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `checkv_id`, `cv_no`, `line_no`, `crf_no`, `doc_no`, `voucher`.`vendor_code`, `ven`.`vendor_name`, `invoice_no`
+FROM `tbl_check_voucher_line` `voucher`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `checkv_id`, `cv_no`, `line_no`, `crf_no`, `doc_no`, `voucher`.`vendor_code`, `ven`.`vendor_name`, `invoice_no`
+FROM `tbl_check_voucher_line` `voucher`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `checkv_id`, `cv_no`, `line_no`, `crf_no`, `doc_no`, `voucher`.`vendor_code`, `ven`.`vendor_name`, `invoice_no`
+FROM `tbl_check_voucher_line` `voucher`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`', [], false)
+ 4 APPPATH\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\admins\Cms.php(169): App\Models\admins\Cms_model->getJoin('tbl_check_voucher_line voucher', 'tbl_vendor ven', 'checkv_id, cv_no, line_no, crf_no, doc_no, voucher.vendor_code, ven.vendor_name, invoice_no', 'check.vendor_code = ven.vendor_code')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_check_voucher()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-28 16:06:17 --> [Caused by] mysqli_sql_exception: Unknown column 'check.vendor_code' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `checkv_id`, `cv_no`, `line_no`, `crf_no`, `doc_no`, `voucher`.`vendor_code`, `ven`.`vendor_name`, `invoice_no`
+FROM `tbl_check_voucher_line` `voucher`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `checkv_id`, `cv_no`, `line_no`, `crf_no`, `doc_no`, `voucher`.`vendor_code`, `ven`.`vendor_name`, `invoice_no`
+FROM `tbl_check_voucher_line` `voucher`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `checkv_id`, `cv_no`, `line_no`, `crf_no`, `doc_no`, `voucher`.`vendor_code`, `ven`.`vendor_name`, `invoice_no`
+FROM `tbl_check_voucher_line` `voucher`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `checkv_id`, `cv_no`, `line_no`, `crf_no`, `doc_no`, `voucher`.`vendor_code`, `ven`.`vendor_name`, `invoice_no`
+FROM `tbl_check_voucher_line` `voucher`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`', [], false)
+ 5 APPPATH\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admins\Cms.php(169): App\Models\admins\Cms_model->getJoin('tbl_check_voucher_line voucher', 'tbl_vendor ven', 'checkv_id, cv_no, line_no, crf_no, doc_no, voucher.vendor_code, ven.vendor_name, invoice_no', 'check.vendor_code = ven.vendor_code')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_check_voucher()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 16:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-28 16:06:26 --> mysqli_sql_exception: Unknown column 'check.vendor_code' in 'on clause' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `checkv_...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `checkv_...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `checkv_...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `checkv_...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(169): App\Models\admins\Cms_model->getJoin('tbl_check_vouch...', 'tbl_vendor ven', 'checkv_id, cv_n...', 'check.vendor_co...')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_check_voucher()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-07-28 16:06:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'check.vendor_code' in 'on clause'
+[Method: POST, Route: admins/fetch_check_voucher]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `checkv_id`, `cv_no`, `line_no`, `crf_no`, `doc_no`, `voucher`.`vendor_code`, `ven`.`vendor_name`, `invoice_no`
+FROM `tbl_check_voucher_line` `voucher`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`', [], false)
+ 2 APPPATH\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\admins\Cms.php(169): App\Models\admins\Cms_model->getJoin('tbl_check_voucher_line voucher', 'tbl_vendor ven', 'checkv_id, cv_no, line_no, crf_no, doc_no, voucher.vendor_code, ven.vendor_name, invoice_no', 'check.vendor_code = ven.vendor_code')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_check_voucher()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-28 16:06:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'check.vendor_code' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `checkv_id`, `cv_no`, `line_no`, `crf_no`, `doc_no`, `voucher`.`vendor_code`, `ven`.`vendor_name`, `invoice_no`
+FROM `tbl_check_voucher_line` `voucher`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `checkv_id`, `cv_no`, `line_no`, `crf_no`, `doc_no`, `voucher`.`vendor_code`, `ven`.`vendor_name`, `invoice_no`
+FROM `tbl_check_voucher_line` `voucher`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `checkv_id`, `cv_no`, `line_no`, `crf_no`, `doc_no`, `voucher`.`vendor_code`, `ven`.`vendor_name`, `invoice_no`
+FROM `tbl_check_voucher_line` `voucher`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`', [], false)
+ 4 APPPATH\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\admins\Cms.php(169): App\Models\admins\Cms_model->getJoin('tbl_check_voucher_line voucher', 'tbl_vendor ven', 'checkv_id, cv_no, line_no, crf_no, doc_no, voucher.vendor_code, ven.vendor_name, invoice_no', 'check.vendor_code = ven.vendor_code')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_check_voucher()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-28 16:06:26 --> [Caused by] mysqli_sql_exception: Unknown column 'check.vendor_code' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `checkv_id`, `cv_no`, `line_no`, `crf_no`, `doc_no`, `voucher`.`vendor_code`, `ven`.`vendor_name`, `invoice_no`
+FROM `tbl_check_voucher_line` `voucher`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `checkv_id`, `cv_no`, `line_no`, `crf_no`, `doc_no`, `voucher`.`vendor_code`, `ven`.`vendor_name`, `invoice_no`
+FROM `tbl_check_voucher_line` `voucher`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `checkv_id`, `cv_no`, `line_no`, `crf_no`, `doc_no`, `voucher`.`vendor_code`, `ven`.`vendor_name`, `invoice_no`
+FROM `tbl_check_voucher_line` `voucher`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `checkv_id`, `cv_no`, `line_no`, `crf_no`, `doc_no`, `voucher`.`vendor_code`, `ven`.`vendor_name`, `invoice_no`
+FROM `tbl_check_voucher_line` `voucher`
+JOIN `tbl_vendor` `ven` ON `check`.`vendor_code` = `ven`.`vendor_code`', [], false)
+ 5 APPPATH\Models\admins\Cms_model.php(97): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admins\Cms.php(169): App\Models\admins\Cms_model->getJoin('tbl_check_voucher_line voucher', 'tbl_vendor ven', 'checkv_id, cv_no, line_no, crf_no, doc_no, voucher.vendor_code, ven.vendor_name, invoice_no', 'check.vendor_code = ven.vendor_code')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->fetch_check_voucher()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 16:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 16:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 16:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 16:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 16:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 16:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 16:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 16:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 16:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 16:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 16:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 16:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 16:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 16:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 17:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 17:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-28 17:02:04 --> ErrorException: Undefined property: App\Controllers\admins\Cms::$input
+[Method: GET, Route: admins/view_item_sales]
+in APPPATH\Controllers\admins\Cms.php on line 511.
+ 1 APPPATH\Controllers\admins\Cms.php(511): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\admins\\Cms::$input', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\admins\\Cms.php', 511)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->view_item_sales()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 17:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-28 17:03:28 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: admins/view_item_sales]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\admins\Cms.php(512): CodeIgniter\Model->__call('getalltblwhere', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->view_item_sales()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 17:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-28 17:05:17 --> ErrorException: Undefined property: App\Controllers\admins\Cms::$load
+[Method: GET, Route: admins/view_item_sales]
+in APPPATH\Controllers\admins\Cms.php on line 514.
+ 1 APPPATH\Controllers\admins\Cms.php(514): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\admins\\Cms::$load', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\admins\\Cms.php', 514)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->view_item_sales()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 17:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-28 17:06:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "body/cms/modal_response.php"
+[Method: GET, Route: admins/view_item_sales]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('body/cms/modal_response.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/modal_response', [], true)
+ 3 APPPATH\Controllers\admins\Cms.php(515): view('body/cms/modal_response', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->view_item_sales()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 17:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 17:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 17:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 17:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 17:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-28 17:51:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "template/anonymous.php"
+[Method: GET, Route: anonymous]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/anonymous.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('template/anonymous', [], true)
+ 3 APPPATH\Controllers\Login.php(83): view('template/anonymous')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->anonymous()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 17:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 17:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 17:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 17:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 17:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 17:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 17:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 17:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 17:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 17:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 17:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-28 17:57:15 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-28 17:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 17:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 17:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 17:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 17:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 17:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 17:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 18:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 18:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 18:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 18:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 18:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 18:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 18:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 18:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 18:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 18:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 18:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-28 18:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

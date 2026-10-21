@@ -1,0 +1,699 @@
+DEBUG - 2025-11-19 08:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 08:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 08:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 08:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 08:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 08:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 08:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-19 08:47:24 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-19 08:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 08:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 08:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 08:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 08:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 08:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 08:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 08:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-19 08:48:37 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-19 08:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 08:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 08:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 08:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-19 08:50:52 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: admins/dtrCutoff]
+in APPPATH\Controllers\admins\Masterfile.php on line 739.
+ 1 APPPATH\Controllers\admins\Masterfile.php(739): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\admins\\Masterfile.php', 739)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Masterfile->dtrCutoff()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Masterfile))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-19 08:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 08:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-19 11:19:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3 in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Dtr_model.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(91): App\Models\supplier\Dtr_model->supplier_cutoffs_sched('150')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('dtr', 'dtr')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-19 11:19:37 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+[Method: GET, Route: page/menu/dtr/dtr]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN :statCut:', [...], false)
+ 2 APPPATH\Models\supplier\Dtr_model.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(91): App\Models\supplier\Dtr_model->supplier_cutoffs_sched('150')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('dtr', 'dtr')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-19 11:19:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN :statCut:', [...], false)
+ 4 APPPATH\Models\supplier\Dtr_model.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(91): App\Models\supplier\Dtr_model->supplier_cutoffs_sched('150')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('dtr', 'dtr')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-19 11:19:37 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN :statCut:', [...], false)
+ 5 APPPATH\Models\supplier\Dtr_model.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(91): App\Models\supplier\Dtr_model->supplier_cutoffs_sched('150')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('dtr', 'dtr')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-19 11:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-19 11:23:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: page/menu/cms/cas]
+in APPPATH\Models\supplier\Concession_model.php on line 66.
+ 1 APPPATH\Models\supplier\Concession_model.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\altsportal.com\\app\\Models\\supplier\\Concession_model.php', 66)
+ 2 APPPATH\Controllers\Page.php(39): App\Models\supplier\Concession_model->getVendorCode('84')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'cas')
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-19 11:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:39:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-19 11:41:47 --> ErrorException: Undefined property: CodeIgniter\View\View::$concession_model
+[Method: GET, Route: page/menu/cms/po]
+in APPPATH\Views\body\cms\po\po.php on line 41.
+ 1 APPPATH\Views\body\cms\po\po.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$concession_model', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\po\\po.php', 41)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\po\\po.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/po/po', [], true)
+ 5 APPPATH\Controllers\Page.php(81): view('body/cms/po/po', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-19 11:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-19 11:47:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: page/menu/cms/vis]
+in APPPATH\Models\supplier\Concession_model.php on line 66.
+ 1 APPPATH\Models\supplier\Concession_model.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\altsportal.com\\app\\Models\\supplier\\Concession_model.php', 66)
+ 2 APPPATH\Controllers\Page.php(39): App\Models\supplier\Concession_model->getVendorCode('84')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-19 11:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-19 11:47:32 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: page/menu/cms/cas]
+in APPPATH\Models\supplier\Concession_model.php on line 66.
+ 1 APPPATH\Models\supplier\Concession_model.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\altsportal.com\\app\\Models\\supplier\\Concession_model.php', 66)
+ 2 APPPATH\Controllers\Page.php(39): App\Models\supplier\Concession_model->getVendorCode('84')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'cas')
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-19 11:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-19 11:49:08 --> ErrorException: Undefined variable $items
+[Method: GET, Route: page/menu/cms/items]
+in APPPATH\Views\body\cms\items\items.php on line 53.
+ 1 APPPATH\Views\body\cms\items\items.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $items', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\items\\items.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\items\\items.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/items/items', [], true)
+ 5 APPPATH\Controllers\Page.php(86): view('body/cms/items/items', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'items')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-19 11:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-19 11:49:49 --> ErrorException: Undefined variable $vcodes
+[Method: GET, Route: page/menu/cms/sales]
+in APPPATH\Views\body\cms\sales\sales.php on line 27.
+ 1 APPPATH\Views\body\cms\sales\sales.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vcodes', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\sales\\sales.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\sales\\sales.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/sales/sales', [], true)
+ 5 APPPATH\Controllers\Page.php(86): view('body/cms/sales/sales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'sales')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-19 11:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-19 11:50:02 --> Error: Call to a member function getVendorCode() on null
+[Method: GET, Route: page/menu/cms/sales]
+in APPPATH\Views\body\cms\sales\sales.php on line 34.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/sales/sales', [], true)
+ 4 APPPATH\Controllers\Page.php(86): view('body/cms/sales/sales', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'sales')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-19 11:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-19 11:52:56 --> ErrorException: Undefined variable $vcodes
+[Method: GET, Route: page/menu/cms/check]
+in APPPATH\Views\body\cms\check\check.php on line 28.
+ 1 APPPATH\Views\body\cms\check\check.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vcodes', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\check\\check.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\check\\check.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/check/check', [], true)
+ 5 APPPATH\Controllers\Page.php(90): view('body/cms/check/check', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'check')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-19 11:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-19 11:53:15 --> Error: Call to a member function getVendorCode() on null
+[Method: GET, Route: page/menu/cms/check]
+in APPPATH\Views\body\cms\check\check.php on line 33.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/check/check', [], true)
+ 4 APPPATH\Controllers\Page.php(90): view('body/cms/check/check', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'check')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-19 11:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 11:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 14:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 14:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 14:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 14:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 14:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 14:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-19 14:17:01 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-19 15:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 15:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 15:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 15:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 15:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 15:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 15:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 15:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 15:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 15:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-19 15:40:22 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: items_pdf/S4607]
+in APPPATH\Views\body\cms\items\items_pdf.php on line 3.
+ 1 APPPATH\Views\body\cms\items\items_pdf.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\items\\items_pdf.php', 3)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\items\\items_pdf.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/items/items_pdf', [], true)
+ 5 APPPATH\Controllers\Concession.php(343): view('body/cms/items/items_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->items_pdf('S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-19 15:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 15:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-19 15:57:03 --> ParseError: syntax error, unexpected token "return"
+[Method: GET, Route: page/menu/cms/deductions]
+in APPPATH\Models\supplier\Concession_model.php on line 130.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\altsportal.com\\app\\Models\\supplier\\Concession_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\supplier\\Concession_model')
+ 3 APPPATH\Controllers\BaseController.php(91): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\supplier\\Concession_model')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-19 15:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-19 15:57:21 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: page/menu/cms/deductions]
+in APPPATH\Views\body\cms\deductions\deductions.php on line 75.
+ 1 APPPATH\Views\body\cms\deductions\deductions.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\deductions\\deductions.php', 75)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\deductions\\deductions.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/deductions/deductions', [], true)
+ 5 APPPATH\Controllers\Page.php(91): view('body/cms/deductions/deductions', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'deductions')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-19 15:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-19 15:59:45 --> ErrorException: Undefined array key "ded_no"
+[Method: GET, Route: page/menu/cms/deductions]
+in APPPATH\Views\body\cms\deductions\deductions.php on line 76.
+ 1 APPPATH\Views\body\cms\deductions\deductions.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ded_no"', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\deductions\\deductions.php', 76)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\deductions\\deductions.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/deductions/deductions', [], true)
+ 5 APPPATH\Controllers\Page.php(91): view('body/cms/deductions/deductions', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'deductions')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-19 15:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 16:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 16:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 16:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 16:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 16:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 16:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-19 16:06:07 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: view_deductions]
+in APPPATH\Controllers\Concession.php on line 369.
+ 1 APPPATH\Controllers\Concession.php(369): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 369)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_deductions()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-19 16:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 16:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 16:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 16:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 16:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-19 16:08:44 --> ErrorException: Undefined property: CodeIgniter\View\View::$concession_model
+[Method: GET, Route: page/menu/cms/po]
+in APPPATH\Views\body\cms\po\po.php on line 41.
+ 1 APPPATH\Views\body\cms\po\po.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$concession_model', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\po\\po.php', 41)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\po\\po.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/po/po', [], true)
+ 5 APPPATH\Controllers\Page.php(91): view('body/cms/po/po', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-19 16:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 16:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-19 16:24:06 --> ErrorException: Undefined property: CodeIgniter\View\View::$concession_model
+[Method: GET, Route: page/menu/cms/po]
+in APPPATH\Views\body\cms\po\po.php on line 41.
+ 1 APPPATH\Views\body\cms\po\po.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$concession_model', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\po\\po.php', 41)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\po\\po.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/po/po', [], true)
+ 5 APPPATH\Controllers\Page.php(91): view('body/cms/po/po', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-19 16:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-19 16:46:16 --> mysqli_sql_exception: Unknown column 'date_approved' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`,...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`,...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`,...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`,...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-19 16:46:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'date_approved' in 'field list'
+[Method: GET, Route: page/menu/cms/po]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `date_approved`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `vendor_code` IS NULL
+ORDER BY `date_requested` DESC', [], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-19 16:46:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'date_approved' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `date_approved`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `vendor_code` IS NULL
+ORDER BY `date_requested` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `date_approved`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `vendor_code` IS NULL
+ORDER BY `date_requested` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `date_approved`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `vendor_code` IS NULL
+ORDER BY `date_requested` DESC', [], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-19 16:46:16 --> [Caused by] mysqli_sql_exception: Unknown column 'date_approved' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `date_approved`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `vendor_code` IS NULL
+ORDER BY `date_requested` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `date_approved`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `vendor_code` IS NULL
+ORDER BY `date_requested` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `date_approved`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `vendor_code` IS NULL
+ORDER BY `date_requested` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `date_approved`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `vendor_code` IS NULL
+ORDER BY `date_requested` DESC', [], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-19 16:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-19 16:46:43 --> mysqli_sql_exception: Column 'vendor_code' in where clause is ambiguous in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`,...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`,...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`,...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`,...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-19 16:46:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'vendor_code' in where clause is ambiguous
+[Method: GET, Route: page/menu/cms/po]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `vendor_code` IS NULL
+ORDER BY `date_requested` DESC', [], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-19 16:46:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'vendor_code' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `vendor_code` IS NULL
+ORDER BY `date_requested` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `vendor_code` IS NULL
+ORDER BY `date_requested` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `vendor_code` IS NULL
+ORDER BY `date_requested` DESC', [], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-19 16:46:43 --> [Caused by] mysqli_sql_exception: Column 'vendor_code' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `vendor_code` IS NULL
+ORDER BY `date_requested` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `vendor_code` IS NULL
+ORDER BY `date_requested` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `vendor_code` IS NULL
+ORDER BY `date_requested` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `vendor_code` IS NULL
+ORDER BY `date_requested` DESC', [], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-19 16:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 16:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 16:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 16:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-19 16:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

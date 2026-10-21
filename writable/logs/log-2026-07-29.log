@@ -1,0 +1,1550 @@
+DEBUG - 2026-07-29 08:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 08:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 08:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 08:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 08:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 08:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 08:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 08:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 08:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 08:38:27 --> ErrorException: Array to string conversion
+[Method: POST, Route: violation_employee_list]
+in APPPATH\Models\supplier\Dtr_model.php on line 103.
+ 1 APPPATH\Models\supplier\Dtr_model.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\altsportal.com\\app\\Models\\supplier\\Dtr_model.php', 103)
+ 2 APPPATH\Controllers\Violation.php(396): App\Models\supplier\Dtr_model->promo_under_agency([...], '29')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Violation->violation_employee_list()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Violation))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 08:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 08:39:29 --> Error: Call to a member function query() on string
+[Method: POST, Route: violation_employee_list]
+in APPPATH\Models\supplier\Dtr_model.php on line 131.
+ 1 APPPATH\Controllers\Violation.php(396): App\Models\supplier\Dtr_model->promo_under_agency([...], '29')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Violation->violation_employee_list()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Violation))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 08:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 08:40:54 --> ErrorException: Array to string conversion
+[Method: POST, Route: violation_employee_list]
+in APPPATH\Models\supplier\Dtr_model.php on line 103.
+ 1 APPPATH\Models\supplier\Dtr_model.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\altsportal.com\\app\\Models\\supplier\\Dtr_model.php', 103)
+ 2 APPPATH\Controllers\Violation.php(396): App\Models\supplier\Dtr_model->promo_under_agency([...], '29')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Violation->violation_employee_list()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Violation))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 08:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 08:41:45 --> ErrorException: Array to string conversion
+[Method: POST, Route: violation_employee_list]
+in APPPATH\Models\supplier\Dtr_model.php on line 103.
+ 1 APPPATH\Models\supplier\Dtr_model.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\altsportal.com\\app\\Models\\supplier\\Dtr_model.php', 103)
+ 2 APPPATH\Controllers\Violation.php(398): App\Models\supplier\Dtr_model->promo_under_agency([...], '29')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Violation->violation_employee_list()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Violation))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 08:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 08:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 08:44:54 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: violation_employee_list]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(892): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\supplier\Dtr_model.php(116): CodeIgniter\Model->__get('server1')
+ 4 APPPATH\Controllers\Violation.php(396): App\Models\supplier\Dtr_model->promo_under_agency([...], '29')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Violation->violation_employee_list()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Violation))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 08:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-29 08:45:52 --> mysqli_sql_exception: Table 'duxvwc44_altspis.promo_sched_emp' doesn't exist in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Dtr_model.php(154): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Violation.php(396): App\Models\supplier\Dtr_model->promo_under_agency(Array, '29')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Violation->violation_employee_list()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Violation))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-07-29 08:45:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altspis.promo_sched_emp' doesn't exist
+[Method: POST, Route: violation_employee_list]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `employee3` as `e`
+JOIN `promo_record` as `p` ON `p`.`emp_id`=`e`.`emp_id` AND `p`.`record_no`=`e`.`record_no`
+JOIN `duxvwc44_altspis`.`promo_sched_emp` AS `t` ON `t`.`empId` = `e`.`emp_id`
+WHERE `agency_code` = :agency_code:
+AND `statCut` = :statCut:
+AND `promo_company` IN :promo_company:
+AND   (
+`p`.`al_tag` = \'T\' OR `p`.`icm` = \'T\' OR `p`.`pm` = \'T\' OR `p`.`alta_citta` = \'T\' OR `p`.`al_panglao` = \'T\'
+ )
+AND   (
+\'2025-10-01\' BETWEEN startdate AND eocdate
+OR `startdate` BETWEEN \'2025-10-01\' AND \'2025-10-15\'
+OR \'2025-10-15\' BETWEEN startdate AND eocdate
+OR `eocdate` BETWEEN \'2025-10-01\' AND \'2025-10-15\'
+ )
+GROUP BY `e`.`emp_id`
+ORDER BY `e`.`date_added` DESC', [...], false)
+ 2 APPPATH\Models\supplier\Dtr_model.php(154): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Violation.php(396): App\Models\supplier\Dtr_model->promo_under_agency([...], '29')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Violation->violation_employee_list()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Violation))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-29 08:45:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altspis.promo_sched_emp' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `employee3` as `e`
+JOIN `promo_record` as `p` ON `p`.`emp_id`=`e`.`emp_id` AND `p`.`record_no`=`e`.`record_no`
+JOIN `duxvwc44_altspis`.`promo_sched_emp` AS `t` ON `t`.`empId` = `e`.`emp_id`
+WHERE `agency_code` = \'29\'
+AND `statCut` = \'11\'
+AND `promo_company` IN (\'ACS MANUFACTURING CORP. & UNI-CARE HYGIENIC PRODUCTS, INC.\',\'ACS MANUFACTURING CORPORATION\',\'ALASKA\',\'ALASKA MILK CORPORATION\',\'ALASKA MILK CORPORATION AND COLGATE/PALMOLIVE INC.\',\'ALASKA MILK CORPORATION AND PRIMERO WORLD ALLIANCE CORP.\',\'CENTURY PACIFIC FOOD INC.\',\'CHENMITCH MARKETING INC., NEW TIANLE ASIA CORPORATION & JOHNSON&JOHNSON PHILS. INC.\',\'CHENMITCH MARKETING, INC. & NEW TIANLE ASIA CORPORATION\',\'CHENMITCH PARTY NEEDS\',\'COLGATE - PALMOLIVE\',\'COLGATE - PALMOLIVE PHILIPPINES, INC.\',\'COLGATE-PALMOLIVE\',\'COLUMBIA INTERNATIONAL FOOD PRODUCTS, INC.\',\'DEL MONTE PHILIPPINES\',\'DEL MONTE PHILIPPINES INC\',\'DELFI MARKETING CORP.\',\'FIBERWORLD / MAGICOLOR\',\'FIBERWORLD INC./MAGICOLOR, RKMI AND NEW TIANLE ASIA CORPORATION\',\'GENTLE SUPREME PHILS. INC.\',\'GENTLE SUPREME PHILS. INC. AND UNICARE ELEMENTS\',\'GLOBALMAXEL INC.\',\'GOLD RIVER\',\'GREEN CROSS\',\'GREEN CROSS INC. , PRIMERO WORLD ALLIANCE AND MEAD JOHNSON\',\'GREEN CROSS INC. AND MEAD JOHNSON\',\'GREEN CROSS INC., MEAD JOHNSON, DELFI MARKETING INC.\',\'GREEN CROSS, INC.\',\'GREEN CROSS, INC. AND COLGATE PALMOLIVE, INC.\',\'IFP MANUFACTURING CORP.\',\'IFP MANUFACTURING CORP. & FIBERWORLD INC.\',\'IFP MANUFACTURING CORP. ,FIBERWORLD INC. & MAGICOLOR\',\'IFP MANUFACTURING CORP./NEW TIANLE ASIA CORPORATION/UNI ELEMTNS\',\'IPF MANUFACTURING CORP. & FIBERWORLD\',\'JOHNSON & JOHNSON\',\'JOHNSON & JOHNSON PHILS. INC. AND GENTLE SUPREME PHILS. INC.\',\'JS UNITRADE\',\'JS UNITRADE MERCHANDISE INC.\',\'KALBE INTERNATIONAL\',\'KALBE INTERNATIONAL PTE. LTD., PRIMERO WORLD ALLIANCE CORP. & LIM SENG HUA\',\'KALBE INTERNATIONAL PTE. LTD./ LIM SENG HUA AND IFP MANUFACTURING CORP.\',\'KINO CONSUMER PHILIPPINES, INC.\',\'LEONARDO DISTRIBUTORS INC.\',\'LIM SENG HUA\',\'MAXELL\',\'MEAD JOHNSON\',\'MEAD JOHNSON NUTRITION PHIL.\',\'MEGA FISHING PRODUCTS\',\'MEGAPOLYMER\',\'MEGAPOLYMER INDUSTRIAL CORP./CHENMITCH PARTY NEEDS & UNI ELEMENTS ENTERPRISES\',\'MEGAPOLYMER, CHENMITCH PARTY NEEDS  & UNICARE ELEMENTS\',\'MONDELEZ\',\'MONDELEZ PHIL. INC.\',\'MONDELEZ PHILS. INC/TECHNO FOODS\',\'NEO LABORATORIES\',\'NEW TIANLE\',\'NEW TIANLE ASIA CORP,CHENMITCH MKTG INC.,FIBERWORLD/MAGICOLOR\',\'PEERLESS PRODUCTS\',\'PEERLESS PRODUCTS MANUFACTURING CO & DOLE\',\'PEERLESS PRODUCTS MANUFACTURING CORPORATION\',\'PLAYFUL PRODUCT\',\'PREMIER WINE & SPIRITS\',\'PRIMERO\',\'PRIMERO WORLD ALLIANCE CORP.\',\'PUREFOODS/MAGNOLIA/LA PACITA\',\'RKMI\',\'RKMI PILIPINAS, INC. AND JS UNITRADE MERCHANDISE INC.\',\'SAN MIGUEL FOOD INC.\',\'SAN MIGUEL PUREFOODS\',\'SCPG ASIA PACIFIC INC.\',\'SMIS\',\'SMIS MAGNOLIA \\\\ PUREFOODS\',\'SOUTHERN UNICOAST INNOVENTURE CORP.\',\'TECHNO FOODS / ROGERS\',\'TECHNO FOODS PHIL. INC.\',\'TECHNO FOODS PHIL. INC. (ROGER\\\'S) & MEGAPOLYMER\',\'UNI \',\'UNI ELEMENTS ENTERPRISES\',\'UNI ELEMENTS ENTERPRISES ,UNICARE HYGIENIC PRODUCTS INC. & TECHNO FOODS PHILS. INC.\',\'UNI- CARE HYGIENIC PRODUCTS, INC.\',\'UNI-CARE HYGIENIC PRODUCTS\',\'UNICARE ELEMENTS\',\'UNICARE ELEMENTS & TECHNO FOODS PHILS. INC.\',\'UNILAB\',\'UNILEVER\',\'UNILEVER PHIL. INC.\',\'UNISELL\',\'UNISELL CORPORATION\',\'UNIVERSAL ROBINA CORPORATION\')
+AND   (
+`p`.`al_tag` = \'T\' OR `p`.`icm` = \'T\' OR `p`.`pm` = \'T\' OR `p`.`alta_citta` = \'T\' OR `p`.`al_panglao` = \'T\'
+ )
+AND   (
+\'2025-10-01\' BETWEEN startdate AND eocdate
+OR `startdate` BETWEEN \'2025-10-01\' AND \'2025-10-15\'
+OR \'2025-10-15\' BETWEEN startdate AND eocdate
+OR `eocdate` BETWEEN \'2025-10-01\' AND \'2025-10-15\'
+ )
+GROUP BY `e`.`emp_id`
+ORDER BY `e`.`date_added` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `employee3` as `e`
+JOIN `promo_record` as `p` ON `p`.`emp_id`=`e`.`emp_id` AND `p`.`record_no`=`e`.`record_no`
+JOIN `duxvwc44_altspis`.`promo_sched_emp` AS `t` ON `t`.`empId` = `e`.`emp_id`
+WHERE `agency_code` = \'29\'
+AND `statCut` = \'11\'
+AND `promo_company` IN (\'ACS MANUFACTURING CORP. & UNI-CARE HYGIENIC PRODUCTS, INC.\',\'ACS MANUFACTURING CORPORATION\',\'ALASKA\',\'ALASKA MILK CORPORATION\',\'ALASKA MILK CORPORATION AND COLGATE/PALMOLIVE INC.\',\'ALASKA MILK CORPORATION AND PRIMERO WORLD ALLIANCE CORP.\',\'CENTURY PACIFIC FOOD INC.\',\'CHENMITCH MARKETING INC., NEW TIANLE ASIA CORPORATION & JOHNSON&JOHNSON PHILS. INC.\',\'CHENMITCH MARKETING, INC. & NEW TIANLE ASIA CORPORATION\',\'CHENMITCH PARTY NEEDS\',\'COLGATE - PALMOLIVE\',\'COLGATE - PALMOLIVE PHILIPPINES, INC.\',\'COLGATE-PALMOLIVE\',\'COLUMBIA INTERNATIONAL FOOD PRODUCTS, INC.\',\'DEL MONTE PHILIPPINES\',\'DEL MONTE PHILIPPINES INC\',\'DELFI MARKETING CORP.\',\'FIBERWORLD / MAGICOLOR\',\'FIBERWORLD INC./MAGICOLOR, RKMI AND NEW TIANLE ASIA CORPORATION\',\'GENTLE SUPREME PHILS. INC.\',\'GENTLE SUPREME PHILS. INC. AND UNICARE ELEMENTS\',\'GLOBALMAXEL INC.\',\'GOLD RIVER\',\'GREEN CROSS\',\'GREEN CROSS INC. , PRIMERO WORLD ALLIANCE AND MEAD JOHNSON\',\'GREEN CROSS INC. AND MEAD JOHNSON\',\'GREEN CROSS INC., MEAD JOHNSON, DELFI MARKETING INC.\',\'GREEN CROSS, INC.\',\'GREEN CROSS, INC. AND COLGATE PALMOLIVE, INC.\',\'IFP MANUFACTURING CORP.\',\'IFP MANUFACTURING CORP. & FIBERWORLD INC.\',\'IFP MANUFACTURING CORP. ,FIBERWORLD INC. & MAGICOLOR\',\'IFP MANUFACTURING CORP./NEW TIANLE ASIA CORPORATION/UNI ELEMTNS\',\'IPF MANUFACTURING CORP. & FIBERWORLD\',\'JOHNSON & JOHNSON\',\'JOHNSON & JOHNSON PHILS. INC. AND GENTLE SUPREME PHILS. INC.\',\'JS UNITRADE\',\'JS UNITRADE MERCHANDISE INC.\',\'KALBE INTERNATIONAL\',\'KALBE INTERNATIONAL PTE. LTD., PRIMERO WORLD ALLIANCE CORP. & LIM SENG HUA\',\'KALBE INTERNATIONAL PTE. LTD./ LIM SENG HUA AND IFP MANUFACTURING CORP.\',\'KINO CONSUMER PHILIPPINES, INC.\',\'LEONARDO DISTRIBUTORS INC.\',\'LIM SENG HUA\',\'MAXELL\',\'MEAD JOHNSON\',\'MEAD JOHNSON NUTRITION PHIL.\',\'MEGA FISHING PRODUCTS\',\'MEGAPOLYMER\',\'MEGAPOLYMER INDUSTRIAL CORP./CHENMITCH PARTY NEEDS & UNI ELEMENTS ENTERPRISES\',\'MEGAPOLYMER, CHENMITCH PARTY NEEDS  & UNICARE ELEMENTS\',\'MONDELEZ\',\'MONDELEZ PHIL. INC.\',\'MONDELEZ PHILS. INC/TECHNO FOODS\',\'NEO LABORATORIES\',\'NEW TIANLE\',\'NEW TIANLE ASIA CORP,CHENMITCH MKTG INC.,FIBERWORLD/MAGICOLOR\',\'PEERLESS PRODUCTS\',\'PEERLESS PRODUCTS MANUFACTURING CO & DOLE\',\'PEERLESS PRODUCTS MANUFACTURING CORPORATION\',\'PLAYFUL PRODUCT\',\'PREMIER WINE & SPIRITS\',\'PRIMERO\',\'PRIMERO WORLD ALLIANCE CORP.\',\'PUREFOODS/MAGNOLIA/LA PACITA\',\'RKMI\',\'RKMI PILIPINAS, INC. AND JS UNITRADE MERCHANDISE INC.\',\'SAN MIGUEL FOOD INC.\',\'SAN MIGUEL PUREFOODS\',\'SCPG ASIA PACIFIC INC.\',\'SMIS\',\'SMIS MAGNOLIA \\\\ PUREFOODS\',\'SOUTHERN UNICOAST INNOVENTURE CORP.\',\'TECHNO FOODS / ROGERS\',\'TECHNO FOODS PHIL. INC.\',\'TECHNO FOODS PHIL. INC. (ROGER\\\'S) & MEGAPOLYMER\',\'UNI \',\'UNI ELEMENTS ENTERPRISES\',\'UNI ELEMENTS ENTERPRISES ,UNICARE HYGIENIC PRODUCTS INC. & TECHNO FOODS PHILS. INC.\',\'UNI- CARE HYGIENIC PRODUCTS, INC.\',\'UNI-CARE HYGIENIC PRODUCTS\',\'UNICARE ELEMENTS\',\'UNICARE ELEMENTS & TECHNO FOODS PHILS. INC.\',\'UNILAB\',\'UNILEVER\',\'UNILEVER PHIL. INC.\',\'UNISELL\',\'UNISELL CORPORATION\',\'UNIVERSAL ROBINA CORPORATION\')
+AND   (
+`p`.`al_tag` = \'T\' OR `p`.`icm` = \'T\' OR `p`.`pm` = \'T\' OR `p`.`alta_citta` = \'T\' OR `p`.`al_panglao` = \'T\'
+ )
+AND   (
+\'2025-10-01\' BETWEEN startdate AND eocdate
+OR `startdate` BETWEEN \'2025-10-01\' AND \'2025-10-15\'
+OR \'2025-10-15\' BETWEEN startdate AND eocdate
+OR `eocdate` BETWEEN \'2025-10-01\' AND \'2025-10-15\'
+ )
+GROUP BY `e`.`emp_id`
+ORDER BY `e`.`date_added` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `employee3` as `e`
+JOIN `promo_record` as `p` ON `p`.`emp_id`=`e`.`emp_id` AND `p`.`record_no`=`e`.`record_no`
+JOIN `duxvwc44_altspis`.`promo_sched_emp` AS `t` ON `t`.`empId` = `e`.`emp_id`
+WHERE `agency_code` = :agency_code:
+AND `statCut` = :statCut:
+AND `promo_company` IN :promo_company:
+AND   (
+`p`.`al_tag` = \'T\' OR `p`.`icm` = \'T\' OR `p`.`pm` = \'T\' OR `p`.`alta_citta` = \'T\' OR `p`.`al_panglao` = \'T\'
+ )
+AND   (
+\'2025-10-01\' BETWEEN startdate AND eocdate
+OR `startdate` BETWEEN \'2025-10-01\' AND \'2025-10-15\'
+OR \'2025-10-15\' BETWEEN startdate AND eocdate
+OR `eocdate` BETWEEN \'2025-10-01\' AND \'2025-10-15\'
+ )
+GROUP BY `e`.`emp_id`
+ORDER BY `e`.`date_added` DESC', [...], false)
+ 4 APPPATH\Models\supplier\Dtr_model.php(154): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Violation.php(396): App\Models\supplier\Dtr_model->promo_under_agency([...], '29')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Violation->violation_employee_list()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Violation))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-29 08:45:52 --> [Caused by] mysqli_sql_exception: Table 'duxvwc44_altspis.promo_sched_emp' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `employee3` as `e`
+JOIN `promo_record` as `p` ON `p`.`emp_id`=`e`.`emp_id` AND `p`.`record_no`=`e`.`record_no`
+JOIN `duxvwc44_altspis`.`promo_sched_emp` AS `t` ON `t`.`empId` = `e`.`emp_id`
+WHERE `agency_code` = \'29\'
+AND `statCut` = \'11\'
+AND `promo_company` IN (\'ACS MANUFACTURING CORP. & UNI-CARE HYGIENIC PRODUCTS, INC.\',\'ACS MANUFACTURING CORPORATION\',\'ALASKA\',\'ALASKA MILK CORPORATION\',\'ALASKA MILK CORPORATION AND COLGATE/PALMOLIVE INC.\',\'ALASKA MILK CORPORATION AND PRIMERO WORLD ALLIANCE CORP.\',\'CENTURY PACIFIC FOOD INC.\',\'CHENMITCH MARKETING INC., NEW TIANLE ASIA CORPORATION & JOHNSON&JOHNSON PHILS. INC.\',\'CHENMITCH MARKETING, INC. & NEW TIANLE ASIA CORPORATION\',\'CHENMITCH PARTY NEEDS\',\'COLGATE - PALMOLIVE\',\'COLGATE - PALMOLIVE PHILIPPINES, INC.\',\'COLGATE-PALMOLIVE\',\'COLUMBIA INTERNATIONAL FOOD PRODUCTS, INC.\',\'DEL MONTE PHILIPPINES\',\'DEL MONTE PHILIPPINES INC\',\'DELFI MARKETING CORP.\',\'FIBERWORLD / MAGICOLOR\',\'FIBERWORLD INC./MAGICOLOR, RKMI AND NEW TIANLE ASIA CORPORATION\',\'GENTLE SUPREME PHILS. INC.\',\'GENTLE SUPREME PHILS. INC. AND UNICARE ELEMENTS\',\'GLOBALMAXEL INC.\',\'GOLD RIVER\',\'GREEN CROSS\',\'GREEN CROSS INC. , PRIMERO WORLD ALLIANCE AND MEAD JOHNSON\',\'GREEN CROSS INC. AND MEAD JOHNSON\',\'GREEN CROSS INC., MEAD JOHNSON, DELFI MARKETING INC.\',\'GREEN CROSS, INC.\',\'GREEN CROSS, INC. AND COLGATE PALMOLIVE, INC.\',\'IFP MANUFACTURING CORP.\',\'IFP MANUFACTURING CORP. & FIBERWORLD INC.\',\'IFP MANUFACTURING CORP. ,FIBERWORLD INC. & MAGICOLOR\',\'IFP MANUFACTURING CORP./NEW TIANLE ASIA CORPORATION/UNI ELEMTNS\',\'IPF MANUFACTURING CORP. & FIBERWORLD\',\'JOHNSON & JOHNSON\',\'JOHNSON & JOHNSON PHILS. INC. AND GENTLE SUPREME PHILS. INC.\',\'JS UNITRADE\',\'JS UNITRADE MERCHANDISE INC.\',\'KALBE INTERNATIONAL\',\'KALBE INTERNATIONAL PTE. LTD., PRIMERO WORLD ALLIANCE CORP. & LIM SENG HUA\',\'KALBE INTERNATIONAL PTE. LTD./ LIM SENG HUA AND IFP MANUFACTURING CORP.\',\'KINO CONSUMER PHILIPPINES, INC.\',\'LEONARDO DISTRIBUTORS INC.\',\'LIM SENG HUA\',\'MAXELL\',\'MEAD JOHNSON\',\'MEAD JOHNSON NUTRITION PHIL.\',\'MEGA FISHING PRODUCTS\',\'MEGAPOLYMER\',\'MEGAPOLYMER INDUSTRIAL CORP./CHENMITCH PARTY NEEDS & UNI ELEMENTS ENTERPRISES\',\'MEGAPOLYMER, CHENMITCH PARTY NEEDS  & UNICARE ELEMENTS\',\'MONDELEZ\',\'MONDELEZ PHIL. INC.\',\'MONDELEZ PHILS. INC/TECHNO FOODS\',\'NEO LABORATORIES\',\'NEW TIANLE\',\'NEW TIANLE ASIA CORP,CHENMITCH MKTG INC.,FIBERWORLD/MAGICOLOR\',\'PEERLESS PRODUCTS\',\'PEERLESS PRODUCTS MANUFACTURING CO & DOLE\',\'PEERLESS PRODUCTS MANUFACTURING CORPORATION\',\'PLAYFUL PRODUCT\',\'PREMIER WINE & SPIRITS\',\'PRIMERO\',\'PRIMERO WORLD ALLIANCE CORP.\',\'PUREFOODS/MAGNOLIA/LA PACITA\',\'RKMI\',\'RKMI PILIPINAS, INC. AND JS UNITRADE MERCHANDISE INC.\',\'SAN MIGUEL FOOD INC.\',\'SAN MIGUEL PUREFOODS\',\'SCPG ASIA PACIFIC INC.\',\'SMIS\',\'SMIS MAGNOLIA \\\\ PUREFOODS\',\'SOUTHERN UNICOAST INNOVENTURE CORP.\',\'TECHNO FOODS / ROGERS\',\'TECHNO FOODS PHIL. INC.\',\'TECHNO FOODS PHIL. INC. (ROGER\\\'S) & MEGAPOLYMER\',\'UNI \',\'UNI ELEMENTS ENTERPRISES\',\'UNI ELEMENTS ENTERPRISES ,UNICARE HYGIENIC PRODUCTS INC. & TECHNO FOODS PHILS. INC.\',\'UNI- CARE HYGIENIC PRODUCTS, INC.\',\'UNI-CARE HYGIENIC PRODUCTS\',\'UNICARE ELEMENTS\',\'UNICARE ELEMENTS & TECHNO FOODS PHILS. INC.\',\'UNILAB\',\'UNILEVER\',\'UNILEVER PHIL. INC.\',\'UNISELL\',\'UNISELL CORPORATION\',\'UNIVERSAL ROBINA CORPORATION\')
+AND   (
+`p`.`al_tag` = \'T\' OR `p`.`icm` = \'T\' OR `p`.`pm` = \'T\' OR `p`.`alta_citta` = \'T\' OR `p`.`al_panglao` = \'T\'
+ )
+AND   (
+\'2025-10-01\' BETWEEN startdate AND eocdate
+OR `startdate` BETWEEN \'2025-10-01\' AND \'2025-10-15\'
+OR \'2025-10-15\' BETWEEN startdate AND eocdate
+OR `eocdate` BETWEEN \'2025-10-01\' AND \'2025-10-15\'
+ )
+GROUP BY `e`.`emp_id`
+ORDER BY `e`.`date_added` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `employee3` as `e`
+JOIN `promo_record` as `p` ON `p`.`emp_id`=`e`.`emp_id` AND `p`.`record_no`=`e`.`record_no`
+JOIN `duxvwc44_altspis`.`promo_sched_emp` AS `t` ON `t`.`empId` = `e`.`emp_id`
+WHERE `agency_code` = \'29\'
+AND `statCut` = \'11\'
+AND `promo_company` IN (\'ACS MANUFACTURING CORP. & UNI-CARE HYGIENIC PRODUCTS, INC.\',\'ACS MANUFACTURING CORPORATION\',\'ALASKA\',\'ALASKA MILK CORPORATION\',\'ALASKA MILK CORPORATION AND COLGATE/PALMOLIVE INC.\',\'ALASKA MILK CORPORATION AND PRIMERO WORLD ALLIANCE CORP.\',\'CENTURY PACIFIC FOOD INC.\',\'CHENMITCH MARKETING INC., NEW TIANLE ASIA CORPORATION & JOHNSON&JOHNSON PHILS. INC.\',\'CHENMITCH MARKETING, INC. & NEW TIANLE ASIA CORPORATION\',\'CHENMITCH PARTY NEEDS\',\'COLGATE - PALMOLIVE\',\'COLGATE - PALMOLIVE PHILIPPINES, INC.\',\'COLGATE-PALMOLIVE\',\'COLUMBIA INTERNATIONAL FOOD PRODUCTS, INC.\',\'DEL MONTE PHILIPPINES\',\'DEL MONTE PHILIPPINES INC\',\'DELFI MARKETING CORP.\',\'FIBERWORLD / MAGICOLOR\',\'FIBERWORLD INC./MAGICOLOR, RKMI AND NEW TIANLE ASIA CORPORATION\',\'GENTLE SUPREME PHILS. INC.\',\'GENTLE SUPREME PHILS. INC. AND UNICARE ELEMENTS\',\'GLOBALMAXEL INC.\',\'GOLD RIVER\',\'GREEN CROSS\',\'GREEN CROSS INC. , PRIMERO WORLD ALLIANCE AND MEAD JOHNSON\',\'GREEN CROSS INC. AND MEAD JOHNSON\',\'GREEN CROSS INC., MEAD JOHNSON, DELFI MARKETING INC.\',\'GREEN CROSS, INC.\',\'GREEN CROSS, INC. AND COLGATE PALMOLIVE, INC.\',\'IFP MANUFACTURING CORP.\',\'IFP MANUFACTURING CORP. & FIBERWORLD INC.\',\'IFP MANUFACTURING CORP. ,FIBERWORLD INC. & MAGICOLOR\',\'IFP MANUFACTURING CORP./NEW TIANLE ASIA CORPORATION/UNI ELEMTNS\',\'IPF MANUFACTURING CORP. & FIBERWORLD\',\'JOHNSON & JOHNSON\',\'JOHNSON & JOHNSON PHILS. INC. AND GENTLE SUPREME PHILS. INC.\',\'JS UNITRADE\',\'JS UNITRADE MERCHANDISE INC.\',\'KALBE INTERNATIONAL\',\'KALBE INTERNATIONAL PTE. LTD., PRIMERO WORLD ALLIANCE CORP. & LIM SENG HUA\',\'KALBE INTERNATIONAL PTE. LTD./ LIM SENG HUA AND IFP MANUFACTURING CORP.\',\'KINO CONSUMER PHILIPPINES, INC.\',\'LEONARDO DISTRIBUTORS INC.\',\'LIM SENG HUA\',\'MAXELL\',\'MEAD JOHNSON\',\'MEAD JOHNSON NUTRITION PHIL.\',\'MEGA FISHING PRODUCTS\',\'MEGAPOLYMER\',\'MEGAPOLYMER INDUSTRIAL CORP./CHENMITCH PARTY NEEDS & UNI ELEMENTS ENTERPRISES\',\'MEGAPOLYMER, CHENMITCH PARTY NEEDS  & UNICARE ELEMENTS\',\'MONDELEZ\',\'MONDELEZ PHIL. INC.\',\'MONDELEZ PHILS. INC/TECHNO FOODS\',\'NEO LABORATORIES\',\'NEW TIANLE\',\'NEW TIANLE ASIA CORP,CHENMITCH MKTG INC.,FIBERWORLD/MAGICOLOR\',\'PEERLESS PRODUCTS\',\'PEERLESS PRODUCTS MANUFACTURING CO & DOLE\',\'PEERLESS PRODUCTS MANUFACTURING CORPORATION\',\'PLAYFUL PRODUCT\',\'PREMIER WINE & SPIRITS\',\'PRIMERO\',\'PRIMERO WORLD ALLIANCE CORP.\',\'PUREFOODS/MAGNOLIA/LA PACITA\',\'RKMI\',\'RKMI PILIPINAS, INC. AND JS UNITRADE MERCHANDISE INC.\',\'SAN MIGUEL FOOD INC.\',\'SAN MIGUEL PUREFOODS\',\'SCPG ASIA PACIFIC INC.\',\'SMIS\',\'SMIS MAGNOLIA \\\\ PUREFOODS\',\'SOUTHERN UNICOAST INNOVENTURE CORP.\',\'TECHNO FOODS / ROGERS\',\'TECHNO FOODS PHIL. INC.\',\'TECHNO FOODS PHIL. INC. (ROGER\\\'S) & MEGAPOLYMER\',\'UNI \',\'UNI ELEMENTS ENTERPRISES\',\'UNI ELEMENTS ENTERPRISES ,UNICARE HYGIENIC PRODUCTS INC. & TECHNO FOODS PHILS. INC.\',\'UNI- CARE HYGIENIC PRODUCTS, INC.\',\'UNI-CARE HYGIENIC PRODUCTS\',\'UNICARE ELEMENTS\',\'UNICARE ELEMENTS & TECHNO FOODS PHILS. INC.\',\'UNILAB\',\'UNILEVER\',\'UNILEVER PHIL. INC.\',\'UNISELL\',\'UNISELL CORPORATION\',\'UNIVERSAL ROBINA CORPORATION\')
+AND   (
+`p`.`al_tag` = \'T\' OR `p`.`icm` = \'T\' OR `p`.`pm` = \'T\' OR `p`.`alta_citta` = \'T\' OR `p`.`al_panglao` = \'T\'
+ )
+AND   (
+\'2025-10-01\' BETWEEN startdate AND eocdate
+OR `startdate` BETWEEN \'2025-10-01\' AND \'2025-10-15\'
+OR \'2025-10-15\' BETWEEN startdate AND eocdate
+OR `eocdate` BETWEEN \'2025-10-01\' AND \'2025-10-15\'
+ )
+GROUP BY `e`.`emp_id`
+ORDER BY `e`.`date_added` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `employee3` as `e`
+JOIN `promo_record` as `p` ON `p`.`emp_id`=`e`.`emp_id` AND `p`.`record_no`=`e`.`record_no`
+JOIN `duxvwc44_altspis`.`promo_sched_emp` AS `t` ON `t`.`empId` = `e`.`emp_id`
+WHERE `agency_code` = \'29\'
+AND `statCut` = \'11\'
+AND `promo_company` IN (\'ACS MANUFACTURING CORP. & UNI-CARE HYGIENIC PRODUCTS, INC.\',\'ACS MANUFACTURING CORPORATION\',\'ALASKA\',\'ALASKA MILK CORPORATION\',\'ALASKA MILK CORPORATION AND COLGATE/PALMOLIVE INC.\',\'ALASKA MILK CORPORATION AND PRIMERO WORLD ALLIANCE CORP.\',\'CENTURY PACIFIC FOOD INC.\',\'CHENMITCH MARKETING INC., NEW TIANLE ASIA CORPORATION & JOHNSON&JOHNSON PHILS. INC.\',\'CHENMITCH MARKETING, INC. & NEW TIANLE ASIA CORPORATION\',\'CHENMITCH PARTY NEEDS\',\'COLGATE - PALMOLIVE\',\'COLGATE - PALMOLIVE PHILIPPINES, INC.\',\'COLGATE-PALMOLIVE\',\'COLUMBIA INTERNATIONAL FOOD PRODUCTS, INC.\',\'DEL MONTE PHILIPPINES\',\'DEL MONTE PHILIPPINES INC\',\'DELFI MARKETING CORP.\',\'FIBERWORLD / MAGICOLOR\',\'FIBERWORLD INC./MAGICOLOR, RKMI AND NEW TIANLE ASIA CORPORATION\',\'GENTLE SUPREME PHILS. INC.\',\'GENTLE SUPREME PHILS. INC. AND UNICARE ELEMENTS\',\'GLOBALMAXEL INC.\',\'GOLD RIVER\',\'GREEN CROSS\',\'GREEN CROSS INC. , PRIMERO WORLD ALLIANCE AND MEAD JOHNSON\',\'GREEN CROSS INC. AND MEAD JOHNSON\',\'GREEN CROSS INC., MEAD JOHNSON, DELFI MARKETING INC.\',\'GREEN CROSS, INC.\',\'GREEN CROSS, INC. AND COLGATE PALMOLIVE, INC.\',\'IFP MANUFACTURING CORP.\',\'IFP MANUFACTURING CORP. & FIBERWORLD INC.\',\'IFP MANUFACTURING CORP. ,FIBERWORLD INC. & MAGICOLOR\',\'IFP MANUFACTURING CORP./NEW TIANLE ASIA CORPORATION/UNI ELEMTNS\',\'IPF MANUFACTURING CORP. & FIBERWORLD\',\'JOHNSON & JOHNSON\',\'JOHNSON & JOHNSON PHILS. INC. AND GENTLE SUPREME PHILS. INC.\',\'JS UNITRADE\',\'JS UNITRADE MERCHANDISE INC.\',\'KALBE INTERNATIONAL\',\'KALBE INTERNATIONAL PTE. LTD., PRIMERO WORLD ALLIANCE CORP. & LIM SENG HUA\',\'KALBE INTERNATIONAL PTE. LTD./ LIM SENG HUA AND IFP MANUFACTURING CORP.\',\'KINO CONSUMER PHILIPPINES, INC.\',\'LEONARDO DISTRIBUTORS INC.\',\'LIM SENG HUA\',\'MAXELL\',\'MEAD JOHNSON\',\'MEAD JOHNSON NUTRITION PHIL.\',\'MEGA FISHING PRODUCTS\',\'MEGAPOLYMER\',\'MEGAPOLYMER INDUSTRIAL CORP./CHENMITCH PARTY NEEDS & UNI ELEMENTS ENTERPRISES\',\'MEGAPOLYMER, CHENMITCH PARTY NEEDS  & UNICARE ELEMENTS\',\'MONDELEZ\',\'MONDELEZ PHIL. INC.\',\'MONDELEZ PHILS. INC/TECHNO FOODS\',\'NEO LABORATORIES\',\'NEW TIANLE\',\'NEW TIANLE ASIA CORP,CHENMITCH MKTG INC.,FIBERWORLD/MAGICOLOR\',\'PEERLESS PRODUCTS\',\'PEERLESS PRODUCTS MANUFACTURING CO & DOLE\',\'PEERLESS PRODUCTS MANUFACTURING CORPORATION\',\'PLAYFUL PRODUCT\',\'PREMIER WINE & SPIRITS\',\'PRIMERO\',\'PRIMERO WORLD ALLIANCE CORP.\',\'PUREFOODS/MAGNOLIA/LA PACITA\',\'RKMI\',\'RKMI PILIPINAS, INC. AND JS UNITRADE MERCHANDISE INC.\',\'SAN MIGUEL FOOD INC.\',\'SAN MIGUEL PUREFOODS\',\'SCPG ASIA PACIFIC INC.\',\'SMIS\',\'SMIS MAGNOLIA \\\\ PUREFOODS\',\'SOUTHERN UNICOAST INNOVENTURE CORP.\',\'TECHNO FOODS / ROGERS\',\'TECHNO FOODS PHIL. INC.\',\'TECHNO FOODS PHIL. INC. (ROGER\\\'S) & MEGAPOLYMER\',\'UNI \',\'UNI ELEMENTS ENTERPRISES\',\'UNI ELEMENTS ENTERPRISES ,UNICARE HYGIENIC PRODUCTS INC. & TECHNO FOODS PHILS. INC.\',\'UNI- CARE HYGIENIC PRODUCTS, INC.\',\'UNI-CARE HYGIENIC PRODUCTS\',\'UNICARE ELEMENTS\',\'UNICARE ELEMENTS & TECHNO FOODS PHILS. INC.\',\'UNILAB\',\'UNILEVER\',\'UNILEVER PHIL. INC.\',\'UNISELL\',\'UNISELL CORPORATION\',\'UNIVERSAL ROBINA CORPORATION\')
+AND   (
+`p`.`al_tag` = \'T\' OR `p`.`icm` = \'T\' OR `p`.`pm` = \'T\' OR `p`.`alta_citta` = \'T\' OR `p`.`al_panglao` = \'T\'
+ )
+AND   (
+\'2025-10-01\' BETWEEN startdate AND eocdate
+OR `startdate` BETWEEN \'2025-10-01\' AND \'2025-10-15\'
+OR \'2025-10-15\' BETWEEN startdate AND eocdate
+OR `eocdate` BETWEEN \'2025-10-01\' AND \'2025-10-15\'
+ )
+GROUP BY `e`.`emp_id`
+ORDER BY `e`.`date_added` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `employee3` as `e`
+JOIN `promo_record` as `p` ON `p`.`emp_id`=`e`.`emp_id` AND `p`.`record_no`=`e`.`record_no`
+JOIN `duxvwc44_altspis`.`promo_sched_emp` AS `t` ON `t`.`empId` = `e`.`emp_id`
+WHERE `agency_code` = :agency_code:
+AND `statCut` = :statCut:
+AND `promo_company` IN :promo_company:
+AND   (
+`p`.`al_tag` = \'T\' OR `p`.`icm` = \'T\' OR `p`.`pm` = \'T\' OR `p`.`alta_citta` = \'T\' OR `p`.`al_panglao` = \'T\'
+ )
+AND   (
+\'2025-10-01\' BETWEEN startdate AND eocdate
+OR `startdate` BETWEEN \'2025-10-01\' AND \'2025-10-15\'
+OR \'2025-10-15\' BETWEEN startdate AND eocdate
+OR `eocdate` BETWEEN \'2025-10-01\' AND \'2025-10-15\'
+ )
+GROUP BY `e`.`emp_id`
+ORDER BY `e`.`date_added` DESC', [...], false)
+ 5 APPPATH\Models\supplier\Dtr_model.php(154): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Violation.php(396): App\Models\supplier\Dtr_model->promo_under_agency([...], '29')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Violation->violation_employee_list()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Violation))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 08:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 08:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 08:47:09 --> ErrorException: Array to string conversion
+[Method: POST, Route: violation_employee_list]
+in APPPATH\Models\supplier\Dtr_model.php on line 103.
+ 1 APPPATH\Models\supplier\Dtr_model.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\altsportal.com\\app\\Models\\supplier\\Dtr_model.php', 103)
+ 2 APPPATH\Controllers\Violation.php(396): App\Models\supplier\Dtr_model->promo_under_agency([...], '29')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Violation->violation_employee_list()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Violation))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 08:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 09:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 09:03:47 --> ErrorException: Undefined array key "hrcode"
+[Method: POST, Route: violation_employee_list]
+in APPPATH\Models\supplier\Dtr_model.php on line 71.
+ 1 APPPATH\Models\supplier\Dtr_model.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "hrcode"', 'C:\\laragon\\www\\altsportal.com\\app\\Models\\supplier\\Dtr_model.php', 71)
+ 2 APPPATH\Models\supplier\Dtr_model.php(127): App\Models\supplier\Dtr_model->getStores('tagbilaran')
+ 3 APPPATH\Controllers\Violation.php(396): App\Models\supplier\Dtr_model->promo_under_agency([...], '29')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Violation->violation_employee_list()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Violation))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 09:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-29 09:04:43 --> mysqli_sql_exception: Unknown column 'hrcode' in 'where clause' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Dtr_model.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Models\supplier\Dtr_model.php(127): App\Models\supplier\Dtr_model->getStores('tagbilaran')
+#6 C:\laragon\www\altsportal.com\app\Controllers\Violation.php(396): App\Models\supplier\Dtr_model->promo_under_agency(Array, '29')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Violation->violation_employee_list()
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Violation))
+#9 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2026-07-29 09:04:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'hrcode' in 'where clause'
+[Method: POST, Route: violation_employee_list]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `locate_promo_business_unit`
+WHERE `status` = :status:
+AND `hrcode` = :hrcode:', [...], false)
+ 2 APPPATH\Models\supplier\Dtr_model.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\supplier\Dtr_model.php(127): App\Models\supplier\Dtr_model->getStores('tagbilaran')
+ 4 APPPATH\Controllers\Violation.php(396): App\Models\supplier\Dtr_model->promo_under_agency([...], '29')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Violation->violation_employee_list()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Violation))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-29 09:04:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'hrcode' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `locate_promo_business_unit`
+WHERE `status` = \'active\'
+AND `hrcode` = \'asc\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `locate_promo_business_unit`
+WHERE `status` = \'active\'
+AND `hrcode` = \'asc\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `locate_promo_business_unit`
+WHERE `status` = :status:
+AND `hrcode` = :hrcode:', [...], false)
+ 4 APPPATH\Models\supplier\Dtr_model.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\supplier\Dtr_model.php(127): App\Models\supplier\Dtr_model->getStores('tagbilaran')
+ 6 APPPATH\Controllers\Violation.php(396): App\Models\supplier\Dtr_model->promo_under_agency([...], '29')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Violation->violation_employee_list()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Violation))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-29 09:04:43 --> [Caused by] mysqli_sql_exception: Unknown column 'hrcode' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `locate_promo_business_unit`
+WHERE `status` = \'active\'
+AND `hrcode` = \'asc\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `locate_promo_business_unit`
+WHERE `status` = \'active\'
+AND `hrcode` = \'asc\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `locate_promo_business_unit`
+WHERE `status` = \'active\'
+AND `hrcode` = \'asc\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `locate_promo_business_unit`
+WHERE `status` = :status:
+AND `hrcode` = :hrcode:', [...], false)
+ 5 APPPATH\Models\supplier\Dtr_model.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\supplier\Dtr_model.php(127): App\Models\supplier\Dtr_model->getStores('tagbilaran')
+ 7 APPPATH\Controllers\Violation.php(396): App\Models\supplier\Dtr_model->promo_under_agency([...], '29')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Violation->violation_employee_list()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Violation))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 09:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 09:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 09:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 09:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 09:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 09:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 09:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 09:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 09:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 09:46:11 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 09:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 09:47:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "body/cms/modal_response.php"
+[Method: GET, Route: admins/view_item_sales]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('body/cms/modal_response.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/modal_response', [], true)
+ 3 APPPATH\Controllers\admins\Cms.php(515): view('body/cms/modal_response', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->view_item_sales()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 09:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 09:49:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "body/cms/modal_response.php"
+[Method: GET, Route: admins/view_item_sales]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('body/cms/modal_response.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/modal_response', [], true)
+ 3 APPPATH\Controllers\admins\Cms.php(515): view('body/cms/modal_response', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admins\Cms->view_item_sales()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 10:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 10:00:56 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 10:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 10:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 11:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 11:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 11:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 11:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 11:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 11:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 11:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 11:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 11:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-29 11:44:13 --> mysqli_sql_exception: Unknown column 'category' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(376): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->import_csv()
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+DEBUG - 2026-07-29 11:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-29 11:52:09 --> mysqli_sql_exception: Unknown column 'vis_id' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(376): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->import_csv()
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+DEBUG - 2026-07-29 11:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 11:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-29 13:15:22 --> mysqli_sql_exception: Duplicate entry '000153' for key 'PRIMARY' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(376): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->import_csv()
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+DEBUG - 2026-07-29 13:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-07-29 13:54:44 --> mysqli_sql_exception: Unknown column 'vat_posting_group' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(316): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->import_csv()
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-07-29 13:54:44 --> mysqli_sql_exception: Unknown column 'vat_posting_group' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(316): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->import_csv()
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-07-29 13:54:44 --> mysqli_sql_exception: Unknown column 'vat_posting_group' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(316): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->import_csv()
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-07-29 13:54:44 --> mysqli_sql_exception: Unknown column 'vat_posting_group' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(316): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->import_csv()
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-07-29 13:54:44 --> mysqli_sql_exception: Unknown column 'vat_posting_group' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(316): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->import_csv()
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-07-29 13:54:44 --> mysqli_sql_exception: Unknown column 'vat_posting_group' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(316): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->import_csv()
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-07-29 13:54:44 --> mysqli_sql_exception: Unknown column 'vat_posting_group' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(316): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->import_csv()
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-07-29 13:54:44 --> mysqli_sql_exception: Unknown column 'vat_posting_group' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(316): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->import_csv()
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-07-29 13:54:44 --> mysqli_sql_exception: Unknown column 'vat_posting_group' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(316): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->import_csv()
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-07-29 13:54:44 --> mysqli_sql_exception: Unknown column 'vat_posting_group' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(316): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->import_csv()
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-07-29 13:54:44 --> mysqli_sql_exception: Unknown column 'vat_posting_group' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(316): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->import_csv()
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-07-29 13:54:44 --> mysqli_sql_exception: Unknown column 'vat_posting_group' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(316): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->import_csv()
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-07-29 13:54:44 --> mysqli_sql_exception: Unknown column 'vat_posting_group' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(316): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->import_csv()
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-07-29 13:54:44 --> mysqli_sql_exception: Unknown column 'vat_posting_group' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(316): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->import_csv()
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-07-29 13:54:44 --> mysqli_sql_exception: Unknown column 'vat_posting_group' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Controllers\admins\Cms.php(316): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\admins\Cms->import_csv()
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admins\Cms))
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+DEBUG - 2026-07-29 13:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 13:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 14:31:19 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 14:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 14:32:18 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 14:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 14:32:54 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 14:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 14:32:59 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 14:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 14:33:08 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 14:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 14:33:33 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 14:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 14:46:56 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 14:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 14:47:01 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 14:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 14:47:05 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 14:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 14:47:11 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 14:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 14:47:50 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 14:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 14:47:57 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 14:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 14:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 15:11:53 --> ErrorException: Undefined array key 0
+[Method: GET, Route: /]
+in APPPATH\Controllers\Page.php on line 10.
+ 1 APPPATH\Controllers\Page.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Page.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 15:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 15:11:53 --> ErrorException: Undefined array key 0
+[Method: GET, Route: /]
+in APPPATH\Controllers\Page.php on line 10.
+ 1 APPPATH\Controllers\Page.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Page.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-29 15:12:28 --> ErrorException: Undefined array key 0
+[Method: GET, Route: /]
+in APPPATH\Controllers\Page.php on line 10.
+ 1 APPPATH\Controllers\Page.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Page.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 15:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 15:13:11 --> ErrorException: Undefined array key 1
+[Method: GET, Route: /]
+in APPPATH\Controllers\Page.php on line 11.
+ 1 APPPATH\Controllers\Page.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Page.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 15:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 15:14:40 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 15:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 15:14:52 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 15:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 15:15:00 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 15:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 15:15:10 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 15:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 15:19:57 --> ErrorException: Undefined array key 1
+[Method: GET, Route: page]
+in APPPATH\Controllers\Page.php on line 11.
+ 1 APPPATH\Controllers\Page.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Page.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-29 15:19:57 --> ErrorException: Undefined array key 1
+[Method: GET, Route: page]
+in APPPATH\Controllers\Page.php on line 11.
+ 1 APPPATH\Controllers\Page.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Page.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 15:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 15:23:20 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 15:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-29 15:23:52 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-29 15:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 15:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 16:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 17:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-29 17:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

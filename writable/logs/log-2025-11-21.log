@@ -1,0 +1,781 @@
+DEBUG - 2025-11-21 09:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-21 09:38:38 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-21 09:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-21 09:41:22 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-21 09:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 09:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 10:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 10:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 10:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 10:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 10:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 10:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 10:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 11:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 11:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 11:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 11:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-21 11:34:53 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: view_receivedpo]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Concession.php(686): CodeIgniter\Model->__call('cDF', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-21 11:35:04 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: view_receivedpo]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Concession.php(686): CodeIgniter\Model->__call('cDF', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-21 11:35:16 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: view_receivedpo]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Concession.php(686): CodeIgniter\Model->__call('cDF', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-21 11:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-21 11:35:55 --> ErrorException: Attempt to read property "date_received" on array
+[Method: GET, Route: view_receivedpo]
+in APPPATH\Controllers\Concession.php on line 698.
+ 1 APPPATH\Controllers\Concession.php(698): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "date_received" on array', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 698)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-21 11:36:01 --> ErrorException: Attempt to read property "date_received" on array
+[Method: GET, Route: view_receivedpo]
+in APPPATH\Controllers\Concession.php on line 698.
+ 1 APPPATH\Controllers\Concession.php(698): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "date_received" on array', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 698)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-21 11:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 11:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 11:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 11:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 11:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 11:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-21 11:40:36 --> ErrorException: Attempt to read property "date_received" on array
+[Method: GET, Route: view_receivedpo]
+in APPPATH\Controllers\Concession.php on line 698.
+ 1 APPPATH\Controllers\Concession.php(698): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "date_received" on array', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 698)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-21 11:40:45 --> ErrorException: Attempt to read property "date_received" on array
+[Method: GET, Route: view_receivedpo]
+in APPPATH\Controllers\Concession.php on line 698.
+ 1 APPPATH\Controllers\Concession.php(698): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "date_received" on array', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 698)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-21 11:40:51 --> ErrorException: Attempt to read property "date_received" on array
+[Method: GET, Route: view_receivedpo]
+in APPPATH\Controllers\Concession.php on line 698.
+ 1 APPPATH\Controllers\Concession.php(698): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "date_received" on array', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 698)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-21 11:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 11:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 11:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 11:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 11:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-21 11:45:06 --> ErrorException: Undefined array key "qty"
+[Method: GET, Route: view_receivedpo]
+in APPPATH\Controllers\Concession.php on line 715.
+ 1 APPPATH\Controllers\Concession.php(715): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qty"', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 715)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-21 11:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-21 11:45:15 --> ErrorException: Undefined array key "qty"
+[Method: GET, Route: view_receivedpo]
+in APPPATH\Controllers\Concession.php on line 715.
+ 1 APPPATH\Controllers\Concession.php(715): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qty"', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 715)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-21 11:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 11:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 14:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-21 14:38:36 --> mysqli_sql_exception: Unknown column 'po_no' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`,...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`,...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`,...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`,...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000...')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-21 14:38:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'po_no' in 'field list'
+[Method: GET, Route: view_receivedpo]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = :ref_no:', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000017')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-21 14:38:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'po_no' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = :ref_no:', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000017')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-21 14:38:36 --> [Caused by] mysqli_sql_exception: Unknown column 'po_no' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = :ref_no:', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000017')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-21 14:38:40 --> mysqli_sql_exception: Unknown column 'po_no' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`,...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`,...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`,...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`,...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000...')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-21 14:38:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'po_no' in 'field list'
+[Method: GET, Route: view_receivedpo]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = :ref_no:', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000017')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-21 14:38:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'po_no' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = :ref_no:', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000017')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-21 14:38:40 --> [Caused by] mysqli_sql_exception: Unknown column 'po_no' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = :ref_no:', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000017')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-21 14:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-21 14:38:48 --> mysqli_sql_exception: Unknown column 'po_no' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`,...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`,...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`,...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`,...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000...')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-21 14:38:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'po_no' in 'field list'
+[Method: GET, Route: view_receivedpo]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = :ref_no:', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000017')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-21 14:38:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'po_no' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = :ref_no:', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000017')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-21 14:38:48 --> [Caused by] mysqli_sql_exception: Unknown column 'po_no' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = :ref_no:', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000017')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-21 14:38:53 --> mysqli_sql_exception: Unknown column 'po_no' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`,...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`,...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`,...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`,...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000...')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-21 14:38:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'po_no' in 'field list'
+[Method: GET, Route: view_receivedpo]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = :ref_no:', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000017')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-21 14:38:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'po_no' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = :ref_no:', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000017')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-21 14:38:53 --> [Caused by] mysqli_sql_exception: Unknown column 'po_no' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = :ref_no:', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000017')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-21 14:39:06 --> mysqli_sql_exception: Unknown column 'requested_by' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tbl_rec...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_rec...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_rec...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_rec...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000...')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-21 14:39:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'requested_by' in 'field list'
+[Method: GET, Route: view_receivedpo]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = :ref_no:', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000017')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-21 14:39:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'requested_by' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = :ref_no:', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000017')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-21 14:39:06 --> [Caused by] mysqli_sql_exception: Unknown column 'requested_by' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `requested_by`, `status`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = :ref_no:', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000017')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-21 14:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-21 14:39:17 --> mysqli_sql_exception: Unknown column 'tbl_req.deptcode' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tbl_rec...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_rec...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_rec...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_rec...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000...')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-21 14:39:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_req.deptcode' in 'field list'
+[Method: GET, Route: view_receivedpo]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = :ref_no:', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000017')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-21 14:39:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_req.deptcode' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = :ref_no:', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000017')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-21 14:39:17 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_req.deptcode' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = \'ASM-CMSPO000000017\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_rec`.`ref_no`, `tbl_rec`.`vendor_code`, `tbl_rec`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, DATE_FORMAT(date_received, \'%M %d, %Y\') AS date_received, `received_status`
+FROM `tbl_po_receiving` as `tbl_rec`
+INNER JOIN `tbl_code_company` ON `tbl_rec`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_rec`.`deptcode` = `tbl_code_department`.`dept_code`
+WHERE `ref_no` = :ref_no:', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(197): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Concession.php(681): App\Models\supplier\Concession_model->get_po_receive('ASM-CMSPO000000017')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-21 14:39:25 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: view_receivedpo]
+in APPPATH\Controllers\Concession.php on line 700.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-21 14:45:44 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: view_receivedpo]
+in APPPATH\Controllers\Concession.php on line 700.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_received_po()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-21 14:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 15:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 15:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 15:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 15:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 15:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 15:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 15:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 15:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 15:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 15:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 15:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 16:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 16:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 16:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 16:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 16:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 16:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 16:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 16:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 16:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 16:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 16:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 16:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 16:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-21 16:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

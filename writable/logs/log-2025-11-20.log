@@ -1,0 +1,1337 @@
+DEBUG - 2025-11-20 08:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 08:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 08:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 08:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 08:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 09:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 09:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 09:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 09:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 09:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 09:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 09:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 09:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 09:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-20 09:56:33 --> mysqli_sql_exception: Unknown column 'date_requesteds' in 'order clause' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`,...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`,...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`,...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`,...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-20 09:56:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'date_requesteds' in 'order clause'
+[Method: GET, Route: page/menu/cms/po]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC', [], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 09:56:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'date_requesteds' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC', [], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 09:56:33 --> [Caused by] mysqli_sql_exception: Unknown column 'date_requesteds' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC', [], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-20 09:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-20 09:56:47 --> mysqli_sql_exception: Unknown column 'date_requesteds' in 'order clause' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`,...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`,...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`,...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`,...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-20 09:56:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'date_requesteds' in 'order clause'
+[Method: GET, Route: page/menu/cms/po]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC', [], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 09:56:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'date_requesteds' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC', [], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 09:56:47 --> [Caused by] mysqli_sql_exception: Unknown column 'date_requesteds' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC', [], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-20 09:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-20 09:57:06 --> mysqli_sql_exception: Unknown column 'date_requesteds' in 'order clause' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`,...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`,...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`,...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`,...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-20 09:57:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'date_requesteds' in 'order clause'
+[Method: GET, Route: page/menu/cms/po]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC', [], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 09:57:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'date_requesteds' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC', [], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 09:57:06 --> [Caused by] mysqli_sql_exception: Unknown column 'date_requesteds' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC', [], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-20 09:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 09:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 09:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 09:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 09:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 09:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-20 09:57:37 --> mysqli_sql_exception: Unknown column 'date_requesteds' in 'order clause' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`,...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`,...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`,...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`,...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-20 09:57:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'date_requesteds' in 'order clause'
+[Method: GET, Route: page/menu/cms/po]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC', [], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 09:57:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'date_requesteds' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC', [], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 09:57:37 --> [Caused by] mysqli_sql_exception: Unknown column 'date_requesteds' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC', [], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-20 09:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 09:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-20 09:57:49 --> mysqli_sql_exception: Unknown column 'date_requesteds' in 'order clause' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`,...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`,...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`,...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`,...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-20 09:57:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'date_requesteds' in 'order clause'
+[Method: GET, Route: page/menu/cms/po]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC', [], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 09:57:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'date_requesteds' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC', [], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 09:57:49 --> [Caused by] mysqli_sql_exception: Unknown column 'date_requesteds' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `tbl_req`.`ref_no`, `tbl_req`.`vendor_code`, `tbl_req`.`compcode`, `name`, `tbl_req`.`deptcode`, `dept_name`, `date_requested`, `requested_by`, `status`, `received_status`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_code_company` ON `tbl_req`.`compcode` = `tbl_code_company`.`company_code`
+INNER JOIN `tbl_code_department` ON `tbl_req`.`deptcode` = `tbl_code_department`.`dept_code`
+LEFT JOIN `tbl_po_receiving` ON `tbl_req`.`deptcode` = `tbl_po_receiving`.`ref_no`
+WHERE `tbl_req`.`vendor_code` IS NULL
+ORDER BY `date_requesteds` DESC', [], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(58): App\Models\supplier\Concession_model->get_po('S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-20 09:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 09:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-20 09:59:01 --> ErrorException: Array to string conversion
+[Method: GET, Route: page/menu/cms/po]
+in APPPATH\Views\body\cms\po\po.php on line 41.
+ 1 APPPATH\Views\body\cms\po\po.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\po\\po.php', 41)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\po\\po.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/po/po', [], true)
+ 5 APPPATH\Controllers\Page.php(85): view('body/cms/po/po', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-20 09:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-20 09:59:06 --> ErrorException: Array to string conversion
+[Method: GET, Route: page/menu/cms/po]
+in APPPATH\Views\body\cms\po\po.php on line 41.
+ 1 APPPATH\Views\body\cms\po\po.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\po\\po.php', 41)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\po\\po.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/po/po', [], true)
+ 5 APPPATH\Controllers\Page.php(85): view('body/cms/po/po', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-20 09:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-20 09:59:16 --> ErrorException: Undefined variable $receivedstat
+[Method: GET, Route: page/menu/cms/po]
+in APPPATH\Views\body\cms\po\po.php on line 45.
+ 1 APPPATH\Views\body\cms\po\po.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $receivedstat', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\po\\po.php', 45)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\po\\po.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/po/po', [], true)
+ 5 APPPATH\Controllers\Page.php(85): view('body/cms/po/po', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-20 09:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 09:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 09:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-20 10:01:36 --> ParseError: syntax error, unexpected token "%"
+[Method: GET, Route: page/menu/cms/po]
+in APPPATH\Models\supplier\Concession_model.php on line 139.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\altsportal.com\\app\\Models\\supplier\\Concession_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\supplier\\Concession_model')
+ 3 APPPATH\Controllers\BaseController.php(91): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\supplier\\Concession_model')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 10:02:17 --> ParseError: syntax error, unexpected token "%"
+[Method: GET, Route: page/menu/cms/po]
+in APPPATH\Models\supplier\Concession_model.php on line 139.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\altsportal.com\\app\\Models\\supplier\\Concession_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\supplier\\Concession_model')
+ 3 APPPATH\Controllers\BaseController.php(91): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\supplier\\Concession_model')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-20 10:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 10:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 10:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 10:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 10:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 10:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 10:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 10:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 10:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 10:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 10:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 10:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 10:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 10:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 10:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 10:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 10:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 10:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 10:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 11:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 11:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 11:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 11:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 11:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 11:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 11:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 11:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 11:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 11:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-20 11:32:04 --> ErrorException: Undefined property: CodeIgniter\View\View::$concession_model
+[Method: GET, Route: page/menu/cms/sales]
+in APPPATH\Views\body\cms\sales\sales.php on line 58.
+ 1 APPPATH\Views\body\cms\sales\sales.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$concession_model', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\sales\\sales.php', 58)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\sales\\sales.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/sales/sales', [], true)
+ 5 APPPATH\Controllers\Page.php(85): view('body/cms/sales/sales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'sales')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-20 11:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-20 13:05:45 --> ErrorException: Undefined property: CodeIgniter\View\View::$concession_model
+[Method: GET, Route: page/menu/cms/sales]
+in APPPATH\Views\body\cms\sales\sales.php on line 58.
+ 1 APPPATH\Views\body\cms\sales\sales.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$concession_model', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\sales\\sales.php', 58)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\sales\\sales.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/sales/sales', [], true)
+ 5 APPPATH\Controllers\Page.php(85): view('body/cms/sales/sales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'sales')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-20 13:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-20 13:11:04 --> mysqli_sql_exception: Unknown column 'tbl_req.vendor_code' in 'where clause' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(157): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(60): App\Models\supplier\Concession_model->get_sales('S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'sales')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-20 13:11:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_req.vendor_code' in 'where clause'
+[Method: GET, Route: page/menu/cms/sales]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_req`.`vendor_code` = :tbl_req.vendor_code:
+ORDER BY `p_start` DESC', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(157): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(60): App\Models\supplier\Concession_model->get_sales('S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'sales')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 13:11:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_req.vendor_code' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_req`.`vendor_code` = \'S4607\'
+ORDER BY `p_start` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_req`.`vendor_code` = \'S4607\'
+ORDER BY `p_start` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_req`.`vendor_code` = :tbl_req.vendor_code:
+ORDER BY `p_start` DESC', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(157): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(60): App\Models\supplier\Concession_model->get_sales('S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'sales')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 13:11:04 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_req.vendor_code' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_req`.`vendor_code` = \'S4607\'
+ORDER BY `p_start` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_req`.`vendor_code` = \'S4607\'
+ORDER BY `p_start` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_req`.`vendor_code` = \'S4607\'
+ORDER BY `p_start` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_req`.`vendor_code` = :tbl_req.vendor_code:
+ORDER BY `p_start` DESC', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(157): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(60): App\Models\supplier\Concession_model->get_sales('S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'sales')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-20 13:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-20 13:12:19 --> mysqli_sql_exception: Unknown column 'tbl_req.vendor_code' in 'where clause' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(157): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(60): App\Models\supplier\Concession_model->get_sales('S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'sales')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-20 13:12:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_req.vendor_code' in 'where clause'
+[Method: GET, Route: page/menu/cms/sales]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_req`.`vendor_code` = :tbl_req.vendor_code:
+ORDER BY `p_start` DESC', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(157): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(60): App\Models\supplier\Concession_model->get_sales('S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'sales')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 13:12:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_req.vendor_code' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_req`.`vendor_code` = \'S4607\'
+ORDER BY `p_start` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_req`.`vendor_code` = \'S4607\'
+ORDER BY `p_start` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_req`.`vendor_code` = :tbl_req.vendor_code:
+ORDER BY `p_start` DESC', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(157): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(60): App\Models\supplier\Concession_model->get_sales('S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'sales')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 13:12:19 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_req.vendor_code' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_req`.`vendor_code` = \'S4607\'
+ORDER BY `p_start` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_req`.`vendor_code` = \'S4607\'
+ORDER BY `p_start` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_req`.`vendor_code` = \'S4607\'
+ORDER BY `p_start` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_req`.`vendor_code` = :tbl_req.vendor_code:
+ORDER BY `p_start` DESC', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(157): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(60): App\Models\supplier\Concession_model->get_sales('S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'sales')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-20 13:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-20 13:12:36 --> ErrorException: Undefined property: CodeIgniter\View\View::$concession_model
+[Method: GET, Route: page/menu/cms/sales]
+in APPPATH\Views\body\cms\sales\sales.php on line 59.
+ 1 APPPATH\Views\body\cms\sales\sales.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$concession_model', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\sales\\sales.php', 59)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\sales\\sales.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/sales/sales', [], true)
+ 5 APPPATH\Controllers\Page.php(83): view('body/cms/sales/sales', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'sales')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-20 13:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-20 13:17:02 --> mysqli_sql_exception: Column 'shortcut' in field list is ambiguous in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iss_no`...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iss_no`...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iss_no`...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iss_no`...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(160): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(60): App\Models\supplier\Concession_model->get_sales('S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'sales')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-20 13:17:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'shortcut' in field list is ambiguous
+[Method: GET, Route: page/menu/cms/sales]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iss_no`, `suf_id`, `tbl_sales`.`vendor_code`, `tbl_sales`.`company_code`, `shortcut`, `tbl_sales`.`dept_code`, `dept_name`, `grp`, `net_sale`, `vat_input`, `sales_commission`, `consignment_payable`, `status`, `audit_status`, `p_start`, `p_end`, DATE_FORMAT(date_posted, \'%Y-%m-%d\') AS date_posted
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_sales`.`vendor_code` = :tbl_sales.vendor_code:
+ORDER BY `p_start` DESC', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(160): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(60): App\Models\supplier\Concession_model->get_sales('S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'sales')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 13:17:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'shortcut' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iss_no`, `suf_id`, `tbl_sales`.`vendor_code`, `tbl_sales`.`company_code`, `shortcut`, `tbl_sales`.`dept_code`, `dept_name`, `grp`, `net_sale`, `vat_input`, `sales_commission`, `consignment_payable`, `status`, `audit_status`, `p_start`, `p_end`, DATE_FORMAT(date_posted, \'%Y-%m-%d\') AS date_posted
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_sales`.`vendor_code` = \'S4607\'
+ORDER BY `p_start` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iss_no`, `suf_id`, `tbl_sales`.`vendor_code`, `tbl_sales`.`company_code`, `shortcut`, `tbl_sales`.`dept_code`, `dept_name`, `grp`, `net_sale`, `vat_input`, `sales_commission`, `consignment_payable`, `status`, `audit_status`, `p_start`, `p_end`, DATE_FORMAT(date_posted, \'%Y-%m-%d\') AS date_posted
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_sales`.`vendor_code` = \'S4607\'
+ORDER BY `p_start` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iss_no`, `suf_id`, `tbl_sales`.`vendor_code`, `tbl_sales`.`company_code`, `shortcut`, `tbl_sales`.`dept_code`, `dept_name`, `grp`, `net_sale`, `vat_input`, `sales_commission`, `consignment_payable`, `status`, `audit_status`, `p_start`, `p_end`, DATE_FORMAT(date_posted, \'%Y-%m-%d\') AS date_posted
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_sales`.`vendor_code` = :tbl_sales.vendor_code:
+ORDER BY `p_start` DESC', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(160): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(60): App\Models\supplier\Concession_model->get_sales('S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'sales')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 13:17:02 --> [Caused by] mysqli_sql_exception: Column 'shortcut' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iss_no`, `suf_id`, `tbl_sales`.`vendor_code`, `tbl_sales`.`company_code`, `shortcut`, `tbl_sales`.`dept_code`, `dept_name`, `grp`, `net_sale`, `vat_input`, `sales_commission`, `consignment_payable`, `status`, `audit_status`, `p_start`, `p_end`, DATE_FORMAT(date_posted, \'%Y-%m-%d\') AS date_posted
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_sales`.`vendor_code` = \'S4607\'
+ORDER BY `p_start` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iss_no`, `suf_id`, `tbl_sales`.`vendor_code`, `tbl_sales`.`company_code`, `shortcut`, `tbl_sales`.`dept_code`, `dept_name`, `grp`, `net_sale`, `vat_input`, `sales_commission`, `consignment_payable`, `status`, `audit_status`, `p_start`, `p_end`, DATE_FORMAT(date_posted, \'%Y-%m-%d\') AS date_posted
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_sales`.`vendor_code` = \'S4607\'
+ORDER BY `p_start` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iss_no`, `suf_id`, `tbl_sales`.`vendor_code`, `tbl_sales`.`company_code`, `shortcut`, `tbl_sales`.`dept_code`, `dept_name`, `grp`, `net_sale`, `vat_input`, `sales_commission`, `consignment_payable`, `status`, `audit_status`, `p_start`, `p_end`, DATE_FORMAT(date_posted, \'%Y-%m-%d\') AS date_posted
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_sales`.`vendor_code` = \'S4607\'
+ORDER BY `p_start` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iss_no`, `suf_id`, `tbl_sales`.`vendor_code`, `tbl_sales`.`company_code`, `shortcut`, `tbl_sales`.`dept_code`, `dept_name`, `grp`, `net_sale`, `vat_input`, `sales_commission`, `consignment_payable`, `status`, `audit_status`, `p_start`, `p_end`, DATE_FORMAT(date_posted, \'%Y-%m-%d\') AS date_posted
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_sales`.`vendor_code` = :tbl_sales.vendor_code:
+ORDER BY `p_start` DESC', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(160): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(60): App\Models\supplier\Concession_model->get_sales('S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'sales')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-20 13:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-20 13:17:16 --> mysqli_sql_exception: Column 'grp' in field list is ambiguous in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iss_no`...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iss_no`...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iss_no`...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iss_no`...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(160): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(60): App\Models\supplier\Concession_model->get_sales('S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'sales')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-20 13:17:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'grp' in field list is ambiguous
+[Method: GET, Route: page/menu/cms/sales]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iss_no`, `suf_id`, `tbl_sales`.`vendor_code`, `tbl_sales`.`company_code`, `tbl_code_company`.`shortcut`, `tbl_sales`.`dept_code`, `dept_name`, `grp`, `net_sale`, `vat_input`, `sales_commission`, `consignment_payable`, `status`, `audit_status`, `p_start`, `p_end`, DATE_FORMAT(date_posted, \'%Y-%m-%d\') AS date_posted
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_sales`.`vendor_code` = :tbl_sales.vendor_code:
+ORDER BY `p_start` DESC', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(160): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(60): App\Models\supplier\Concession_model->get_sales('S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'sales')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 13:17:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'grp' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iss_no`, `suf_id`, `tbl_sales`.`vendor_code`, `tbl_sales`.`company_code`, `tbl_code_company`.`shortcut`, `tbl_sales`.`dept_code`, `dept_name`, `grp`, `net_sale`, `vat_input`, `sales_commission`, `consignment_payable`, `status`, `audit_status`, `p_start`, `p_end`, DATE_FORMAT(date_posted, \'%Y-%m-%d\') AS date_posted
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_sales`.`vendor_code` = \'S4607\'
+ORDER BY `p_start` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iss_no`, `suf_id`, `tbl_sales`.`vendor_code`, `tbl_sales`.`company_code`, `tbl_code_company`.`shortcut`, `tbl_sales`.`dept_code`, `dept_name`, `grp`, `net_sale`, `vat_input`, `sales_commission`, `consignment_payable`, `status`, `audit_status`, `p_start`, `p_end`, DATE_FORMAT(date_posted, \'%Y-%m-%d\') AS date_posted
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_sales`.`vendor_code` = \'S4607\'
+ORDER BY `p_start` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iss_no`, `suf_id`, `tbl_sales`.`vendor_code`, `tbl_sales`.`company_code`, `tbl_code_company`.`shortcut`, `tbl_sales`.`dept_code`, `dept_name`, `grp`, `net_sale`, `vat_input`, `sales_commission`, `consignment_payable`, `status`, `audit_status`, `p_start`, `p_end`, DATE_FORMAT(date_posted, \'%Y-%m-%d\') AS date_posted
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_sales`.`vendor_code` = :tbl_sales.vendor_code:
+ORDER BY `p_start` DESC', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(160): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(60): App\Models\supplier\Concession_model->get_sales('S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'sales')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 13:17:16 --> [Caused by] mysqli_sql_exception: Column 'grp' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `iss_no`, `suf_id`, `tbl_sales`.`vendor_code`, `tbl_sales`.`company_code`, `tbl_code_company`.`shortcut`, `tbl_sales`.`dept_code`, `dept_name`, `grp`, `net_sale`, `vat_input`, `sales_commission`, `consignment_payable`, `status`, `audit_status`, `p_start`, `p_end`, DATE_FORMAT(date_posted, \'%Y-%m-%d\') AS date_posted
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_sales`.`vendor_code` = \'S4607\'
+ORDER BY `p_start` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `iss_no`, `suf_id`, `tbl_sales`.`vendor_code`, `tbl_sales`.`company_code`, `tbl_code_company`.`shortcut`, `tbl_sales`.`dept_code`, `dept_name`, `grp`, `net_sale`, `vat_input`, `sales_commission`, `consignment_payable`, `status`, `audit_status`, `p_start`, `p_end`, DATE_FORMAT(date_posted, \'%Y-%m-%d\') AS date_posted
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_sales`.`vendor_code` = \'S4607\'
+ORDER BY `p_start` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `iss_no`, `suf_id`, `tbl_sales`.`vendor_code`, `tbl_sales`.`company_code`, `tbl_code_company`.`shortcut`, `tbl_sales`.`dept_code`, `dept_name`, `grp`, `net_sale`, `vat_input`, `sales_commission`, `consignment_payable`, `status`, `audit_status`, `p_start`, `p_end`, DATE_FORMAT(date_posted, \'%Y-%m-%d\') AS date_posted
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_sales`.`vendor_code` = \'S4607\'
+ORDER BY `p_start` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `iss_no`, `suf_id`, `tbl_sales`.`vendor_code`, `tbl_sales`.`company_code`, `tbl_code_company`.`shortcut`, `tbl_sales`.`dept_code`, `dept_name`, `grp`, `net_sale`, `vat_input`, `sales_commission`, `consignment_payable`, `status`, `audit_status`, `p_start`, `p_end`, DATE_FORMAT(date_posted, \'%Y-%m-%d\') AS date_posted
+FROM `tbl_item_sales_summary` as `tbl_sales`
+JOIN `tbl_code_company` ON `tbl_sales`.`company_code` = `tbl_code_company`.`company_code`
+JOIN `tbl_code_department` ON `tbl_sales`.`dept_code` = `tbl_code_department`.`dept_code`
+WHERE `tbl_sales`.`vendor_code` = :tbl_sales.vendor_code:
+ORDER BY `p_start` DESC', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(160): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(60): App\Models\supplier\Concession_model->get_sales('S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'sales')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-20 13:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 13:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-20 14:03:53 --> ErrorException: Undefined variable $conditions
+[Method: GET, Route: item_pdf]
+in APPPATH\Controllers\Concession.php on line 611.
+ 1 APPPATH\Controllers\Concession.php(611): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conditions', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 611)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->item_pdf()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 14:21:46 --> Error: Call to undefined method CodeIgniter\HTTP\Response::setPrintHeader()
+[Method: GET, Route: item_pdf/S4607]
+in APPPATH\Controllers\Concession.php on line 658.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->item_pdf('S4607')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 14:22:01 --> Error: Call to undefined method CodeIgniter\HTTP\Response::setPrintFooter()
+[Method: GET, Route: item_pdf/S4607]
+in APPPATH\Controllers\Concession.php on line 658.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->item_pdf('S4607')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 14:29:56 --> Error: Call to undefined method CodeIgniter\HTTP\Response::SetHeaderData()
+[Method: GET, Route: item_pdf/S4607]
+in APPPATH\Controllers\Concession.php on line 656.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->item_pdf('S4607')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 14:30:04 --> Error: Call to undefined method CodeIgniter\HTTP\Response::setHeaderData()
+[Method: GET, Route: item_pdf/S4607]
+in APPPATH\Controllers\Concession.php on line 656.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->item_pdf('S4607')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 14:30:24 --> Error: Call to undefined method CodeIgniter\HTTP\Response::setFooter()
+[Method: GET, Route: item_pdf/S4607]
+in APPPATH\Controllers\Concession.php on line 658.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->item_pdf('S4607')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-20 14:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-20 14:34:49 --> Error: Undefined constant "App\Controllers\PDF_MARGIN_BOTTOM"
+[Method: GET, Route: items_pdf/SOD0283]
+in APPPATH\Controllers\Concession.php on line 646.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->items_pdf('SOD0283')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-20 14:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 14:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 14:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-20 14:41:57 --> ErrorException: Undefined variable $items
+[Method: GET, Route: vendor_po_pdf]
+in APPPATH\Controllers\Concession.php on line 691.
+ 1 APPPATH\Controllers\Concession.php(691): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $items', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 691)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_po_pdf()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 15:17:10 --> ErrorException: Attempt to read property "vendor_code" on array
+[Method: GET, Route: vendor_po_pdf/ASM-CMSPO000000007]
+in APPPATH\Controllers\Concession.php on line 659.
+ 1 APPPATH\Controllers\Concession.php(659): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "vendor_code" on array', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 659)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_po_pdf('ASM-CMSPO000000007')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-20 15:28:00 --> mysqli_sql_exception: Unknown column 'received_status' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`,...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`,...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`,...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`,...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(180): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Concession.php(658): App\Models\supplier\Concession_model->get_po_request('ASM-CMSPO000000...')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Concession->vendor_po_pdf('ASM-CMSPO000000...')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-20 15:28:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'received_status' in 'field list'
+[Method: GET, Route: vendor_po_pdf/ASM-CMSPO000000007]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `ref_no`, `vendor_code`, `compcode`, `deptcode`, `requested_by`, `status`, DATE_FORMAT(date_requested, \'%Y-%m-%d %h:%i %p\') AS date_requested, `received_status`
+FROM `tbl_po_requisition`
+WHERE `tbl_sales`.`ref_no` = :tbl_sales.ref_no:', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(180): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Concession.php(658): App\Models\supplier\Concession_model->get_po_request('ASM-CMSPO000000007')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_po_pdf('ASM-CMSPO000000007')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 15:28:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'received_status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `ref_no`, `vendor_code`, `compcode`, `deptcode`, `requested_by`, `status`, DATE_FORMAT(date_requested, \'%Y-%m-%d %h:%i %p\') AS date_requested, `received_status`
+FROM `tbl_po_requisition`
+WHERE `tbl_sales`.`ref_no` = \'ASM-CMSPO000000007\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `ref_no`, `vendor_code`, `compcode`, `deptcode`, `requested_by`, `status`, DATE_FORMAT(date_requested, \'%Y-%m-%d %h:%i %p\') AS date_requested, `received_status`
+FROM `tbl_po_requisition`
+WHERE `tbl_sales`.`ref_no` = \'ASM-CMSPO000000007\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `ref_no`, `vendor_code`, `compcode`, `deptcode`, `requested_by`, `status`, DATE_FORMAT(date_requested, \'%Y-%m-%d %h:%i %p\') AS date_requested, `received_status`
+FROM `tbl_po_requisition`
+WHERE `tbl_sales`.`ref_no` = :tbl_sales.ref_no:', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(180): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Concession.php(658): App\Models\supplier\Concession_model->get_po_request('ASM-CMSPO000000007')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_po_pdf('ASM-CMSPO000000007')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 15:28:00 --> [Caused by] mysqli_sql_exception: Unknown column 'received_status' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`, `ref_no`, `vendor_code`, `compcode`, `deptcode`, `requested_by`, `status`, DATE_FORMAT(date_requested, \'%Y-%m-%d %h:%i %p\') AS date_requested, `received_status`
+FROM `tbl_po_requisition`
+WHERE `tbl_sales`.`ref_no` = \'ASM-CMSPO000000007\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `ref_no`, `vendor_code`, `compcode`, `deptcode`, `requested_by`, `status`, DATE_FORMAT(date_requested, \'%Y-%m-%d %h:%i %p\') AS date_requested, `received_status`
+FROM `tbl_po_requisition`
+WHERE `tbl_sales`.`ref_no` = \'ASM-CMSPO000000007\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `ref_no`, `vendor_code`, `compcode`, `deptcode`, `requested_by`, `status`, DATE_FORMAT(date_requested, \'%Y-%m-%d %h:%i %p\') AS date_requested, `received_status`
+FROM `tbl_po_requisition`
+WHERE `tbl_sales`.`ref_no` = \'ASM-CMSPO000000007\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `ref_no`, `vendor_code`, `compcode`, `deptcode`, `requested_by`, `status`, DATE_FORMAT(date_requested, \'%Y-%m-%d %h:%i %p\') AS date_requested, `received_status`
+FROM `tbl_po_requisition`
+WHERE `tbl_sales`.`ref_no` = :tbl_sales.ref_no:', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(180): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Concession.php(658): App\Models\supplier\Concession_model->get_po_request('ASM-CMSPO000000007')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_po_pdf('ASM-CMSPO000000007')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-20 15:28:10 --> mysqli_sql_exception: Unknown column 'tbl_sales.ref_no' in 'where clause' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`,...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`,...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`,...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`,...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(180): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Concession.php(658): App\Models\supplier\Concession_model->get_po_request('ASM-CMSPO000000...')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Concession->vendor_po_pdf('ASM-CMSPO000000...')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-20 15:28:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_sales.ref_no' in 'where clause'
+[Method: GET, Route: vendor_po_pdf/ASM-CMSPO000000007]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `ref_no`, `vendor_code`, `compcode`, `deptcode`, `requested_by`, `status`, DATE_FORMAT(date_requested, \'%Y-%m-%d %h:%i %p\') AS date_requested
+FROM `tbl_po_requisition`
+WHERE `tbl_sales`.`ref_no` = :tbl_sales.ref_no:', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(180): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Concession.php(658): App\Models\supplier\Concession_model->get_po_request('ASM-CMSPO000000007')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_po_pdf('ASM-CMSPO000000007')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 15:28:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_sales.ref_no' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `ref_no`, `vendor_code`, `compcode`, `deptcode`, `requested_by`, `status`, DATE_FORMAT(date_requested, \'%Y-%m-%d %h:%i %p\') AS date_requested
+FROM `tbl_po_requisition`
+WHERE `tbl_sales`.`ref_no` = \'ASM-CMSPO000000007\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `ref_no`, `vendor_code`, `compcode`, `deptcode`, `requested_by`, `status`, DATE_FORMAT(date_requested, \'%Y-%m-%d %h:%i %p\') AS date_requested
+FROM `tbl_po_requisition`
+WHERE `tbl_sales`.`ref_no` = \'ASM-CMSPO000000007\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `ref_no`, `vendor_code`, `compcode`, `deptcode`, `requested_by`, `status`, DATE_FORMAT(date_requested, \'%Y-%m-%d %h:%i %p\') AS date_requested
+FROM `tbl_po_requisition`
+WHERE `tbl_sales`.`ref_no` = :tbl_sales.ref_no:', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(180): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Concession.php(658): App\Models\supplier\Concession_model->get_po_request('ASM-CMSPO000000007')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_po_pdf('ASM-CMSPO000000007')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 15:28:10 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_sales.ref_no' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `po_no`, `ref_no`, `vendor_code`, `compcode`, `deptcode`, `requested_by`, `status`, DATE_FORMAT(date_requested, \'%Y-%m-%d %h:%i %p\') AS date_requested
+FROM `tbl_po_requisition`
+WHERE `tbl_sales`.`ref_no` = \'ASM-CMSPO000000007\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po_no`, `ref_no`, `vendor_code`, `compcode`, `deptcode`, `requested_by`, `status`, DATE_FORMAT(date_requested, \'%Y-%m-%d %h:%i %p\') AS date_requested
+FROM `tbl_po_requisition`
+WHERE `tbl_sales`.`ref_no` = \'ASM-CMSPO000000007\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po_no`, `ref_no`, `vendor_code`, `compcode`, `deptcode`, `requested_by`, `status`, DATE_FORMAT(date_requested, \'%Y-%m-%d %h:%i %p\') AS date_requested
+FROM `tbl_po_requisition`
+WHERE `tbl_sales`.`ref_no` = \'ASM-CMSPO000000007\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `po_no`, `ref_no`, `vendor_code`, `compcode`, `deptcode`, `requested_by`, `status`, DATE_FORMAT(date_requested, \'%Y-%m-%d %h:%i %p\') AS date_requested
+FROM `tbl_po_requisition`
+WHERE `tbl_sales`.`ref_no` = :tbl_sales.ref_no:', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(180): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Concession.php(658): App\Models\supplier\Concession_model->get_po_request('ASM-CMSPO000000007')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_po_pdf('ASM-CMSPO000000007')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-20 15:28:17 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: vendor_po_pdf/ASM-CMSPO000000007]
+in APPPATH\Controllers\Concession.php on line 659.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_po_pdf('ASM-CMSPO000000007')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-20 15:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 16:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 16:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 16:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 16:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-20 16:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

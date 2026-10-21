@@ -1,0 +1,116 @@
+DEBUG - 2025-11-14 09:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-14 09:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-14 09:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-14 09:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-14 09:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-14 09:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-14 09:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-14 09:33:22 --> ErrorException: Undefined variable $cas_tbl
+[Method: GET, Route: show_cas]
+in APPPATH\Controllers\Concession.php on line 915.
+ 1 APPPATH\Controllers\Concession.php(915): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cas_tbl', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 915)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once('C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Concession')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Concession')
+ 6 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Concession', true)
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-14 09:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-14 09:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-14 09:46:53 --> ErrorException: Undefined variable $cas_tbl
+[Method: GET, Route: view_items]
+in APPPATH\Controllers\Concession.php on line 915.
+ 1 APPPATH\Controllers\Concession.php(915): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cas_tbl', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 915)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once('C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Concession')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Concession')
+ 6 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Concession', true)
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-14 09:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-14 09:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-14 09:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-14 09:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-14 09:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-14 10:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-14 10:05:54 --> ErrorException: Undefined variable $cas_tbl
+[Method: GET, Route: view_items]
+in APPPATH\Controllers\Concession.php on line 915.
+ 1 APPPATH\Controllers\Concession.php(915): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cas_tbl', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 915)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once('C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Concession')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Concession')
+ 6 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Concession', true)
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 10:06:08 --> ErrorException: Undefined variable $cas_tbl
+[Method: GET, Route: view_items]
+in APPPATH\Controllers\Concession.php on line 915.
+ 1 APPPATH\Controllers\Concession.php(915): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cas_tbl', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 915)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once('C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Concession')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Concession')
+ 6 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Concession', true)
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-14 10:06:56 --> ErrorException: Undefined variable $cas_tbl
+[Method: GET, Route: view_items]
+in APPPATH\Controllers\Concession.php on line 915.
+ 1 APPPATH\Controllers\Concession.php(915): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cas_tbl', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 915)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once('C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Concession')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Concession')
+ 6 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Concession', true)
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-14 10:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-14 10:09:12 --> Error: Call to a member function getVendorCode() on null
+[Method: GET, Route: page/menu/cms/sales]
+in APPPATH\Views\body\cms\sales\sales.php on line 34.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/sales/sales', [], true)
+ 4 APPPATH\Controllers\Page.php(78): view('body/cms/sales/sales', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'sales')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-14 10:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-14 10:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-14 10:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-14 10:18:08 --> ErrorException: Undefined variable $cas_tbl
+[Method: GET, Route: show_cas]
+in APPPATH\Controllers\Concession.php on line 915.
+ 1 APPPATH\Controllers\Concession.php(915): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cas_tbl', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 915)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once('C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Concession')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Concession')
+ 6 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Concession', true)
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,73 @@
+DEBUG - 2025-12-01 13:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 13:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 13:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 13:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 13:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 13:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 13:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 14:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-01 14:00:11 --> ErrorException: Undefined variable $receivedstat
+[Method: GET, Route: view_po]
+in APPPATH\Controllers\Concession.php on line 406.
+ 1 APPPATH\Controllers\Concession.php(406): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $receivedstat', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 406)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_po()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 14:00:12 --> ErrorException: Undefined variable $receivedstat
+[Method: GET, Route: view_po]
+in APPPATH\Controllers\Concession.php on line 406.
+ 1 APPPATH\Controllers\Concession.php(406): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $receivedstat', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 406)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_po()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 14:00:13 --> ErrorException: Undefined variable $receivedstat
+[Method: GET, Route: view_po]
+in APPPATH\Controllers\Concession.php on line 406.
+ 1 APPPATH\Controllers\Concession.php(406): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $receivedstat', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 406)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_po()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-01 14:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-01 14:00:19 --> ErrorException: Undefined variable $receivedstat
+[Method: GET, Route: view_po]
+in APPPATH\Controllers\Concession.php on line 406.
+ 1 APPPATH\Controllers\Concession.php(406): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $receivedstat', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 406)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_po()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 14:00:21 --> ErrorException: Undefined variable $receivedstat
+[Method: GET, Route: view_po]
+in APPPATH\Controllers\Concession.php on line 406.
+ 1 APPPATH\Controllers\Concession.php(406): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $receivedstat', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 406)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_po()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 14:00:21 --> ErrorException: Undefined variable $receivedstat
+[Method: GET, Route: view_po]
+in APPPATH\Controllers\Concession.php on line 406.
+ 1 APPPATH\Controllers\Concession.php(406): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $receivedstat', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 406)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_po()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-12-01 14:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 14:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 14:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-01 14:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

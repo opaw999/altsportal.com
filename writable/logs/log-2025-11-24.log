@@ -1,0 +1,616 @@
+DEBUG - 2025-11-24 08:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-24 08:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-24 13:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-24 13:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-24 13:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-24 13:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-24 13:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-24 13:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-24 13:54:11 --> ErrorException: Undefined property: stdClass::$issno
+[Method: GET, Route: vendor_sales_pdf/11483]
+in APPPATH\Controllers\Concession.php on line 682.
+ 1 APPPATH\Controllers\Concession.php(682): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$issno', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 682)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 15:01:17 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: vendor_sales_pdf/11483]
+in APPPATH\Controllers\Concession.php on line 690.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Concession')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Concession')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Concession', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 15:06:01 --> ErrorException: Array to string conversion
+[Method: GET, Route: vendor_sales_pdf/11483]
+in APPPATH\Controllers\Concession.php on line 728.
+ 1 APPPATH\Controllers\Concession.php(728): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 728)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-24 15:47:42 --> mysqli_sql_exception: Unknown column 'tbl_items.item_divisions' in 'on clause' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT distinct...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT distinct...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT distinct...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT distinct...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(215): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Concession.php(696): App\Models\supplier\Concession_model->get_sales_division('normal', 'S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-24 15:47:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_items.item_divisions' in 'on clause'
+[Method: GET, Route: vendor_sales_pdf/11483]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = :vendor_code:
+AND  `item_division` LIKE :item_division: ESCAPE \'!\'
+AND  `item_dept_code` LIKE :item_dept_code: ESCAPE \'!\'', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(215): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Concession.php(696): App\Models\supplier\Concession_model->get_sales_division('normal', 'S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 15:47:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_items.item_divisions' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = \'S4607\'
+AND  `item_division` LIKE \'X%\' ESCAPE \'!\'
+AND  `item_dept_code` LIKE \'Y%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = \'S4607\'
+AND  `item_division` LIKE \'X%\' ESCAPE \'!\'
+AND  `item_dept_code` LIKE \'Y%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = :vendor_code:
+AND  `item_division` LIKE :item_division: ESCAPE \'!\'
+AND  `item_dept_code` LIKE :item_dept_code: ESCAPE \'!\'', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(215): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Concession.php(696): App\Models\supplier\Concession_model->get_sales_division('normal', 'S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 15:47:42 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_items.item_divisions' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = \'S4607\'
+AND  `item_division` LIKE \'X%\' ESCAPE \'!\'
+AND  `item_dept_code` LIKE \'Y%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = \'S4607\'
+AND  `item_division` LIKE \'X%\' ESCAPE \'!\'
+AND  `item_dept_code` LIKE \'Y%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = \'S4607\'
+AND  `item_division` LIKE \'X%\' ESCAPE \'!\'
+AND  `item_dept_code` LIKE \'Y%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = :vendor_code:
+AND  `item_division` LIKE :item_division: ESCAPE \'!\'
+AND  `item_dept_code` LIKE :item_dept_code: ESCAPE \'!\'', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(215): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Concession.php(696): App\Models\supplier\Concession_model->get_sales_division('normal', 'S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-24 15:47:58 --> mysqli_sql_exception: Unknown column 'tbl_items.item_divisions' in 'on clause' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT distinct...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT distinct...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT distinct...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT distinct...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(215): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Concession.php(696): App\Models\supplier\Concession_model->get_sales_division('normal', 'S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-24 15:47:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_items.item_divisions' in 'on clause'
+[Method: GET, Route: vendor_sales_pdf/11483]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = :vendor_code:
+AND  `item_division` LIKE :item_division: ESCAPE \'!\'
+AND  `item_dept_code` LIKE :item_dept_code: ESCAPE \'!\'', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(215): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Concession.php(696): App\Models\supplier\Concession_model->get_sales_division('normal', 'S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 15:47:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_items.item_divisions' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = \'S4607\'
+AND  `item_division` LIKE \'X%\' ESCAPE \'!\'
+AND  `item_dept_code` LIKE \'Y%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = \'S4607\'
+AND  `item_division` LIKE \'X%\' ESCAPE \'!\'
+AND  `item_dept_code` LIKE \'Y%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = :vendor_code:
+AND  `item_division` LIKE :item_division: ESCAPE \'!\'
+AND  `item_dept_code` LIKE :item_dept_code: ESCAPE \'!\'', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(215): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Concession.php(696): App\Models\supplier\Concession_model->get_sales_division('normal', 'S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 15:47:58 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_items.item_divisions' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = \'S4607\'
+AND  `item_division` LIKE \'X%\' ESCAPE \'!\'
+AND  `item_dept_code` LIKE \'Y%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = \'S4607\'
+AND  `item_division` LIKE \'X%\' ESCAPE \'!\'
+AND  `item_dept_code` LIKE \'Y%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = \'S4607\'
+AND  `item_division` LIKE \'X%\' ESCAPE \'!\'
+AND  `item_dept_code` LIKE \'Y%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = :vendor_code:
+AND  `item_division` LIKE :item_division: ESCAPE \'!\'
+AND  `item_dept_code` LIKE :item_dept_code: ESCAPE \'!\'', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(215): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Concession.php(696): App\Models\supplier\Concession_model->get_sales_division('normal', 'S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-24 15:48:16 --> mysqli_sql_exception: Unknown column 'tbl_items.item_divisions' in 'on clause' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT distinct...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT distinct...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT distinct...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT distinct...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(215): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Concession.php(696): App\Models\supplier\Concession_model->get_sales_division('normal', 'S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-24 15:48:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_items.item_divisions' in 'on clause'
+[Method: GET, Route: vendor_sales_pdf/11483]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = :vendor_code:
+AND  `item_division` LIKE :item_division: ESCAPE \'!\'
+AND  `item_dept_code` LIKE :item_dept_code: ESCAPE \'!\'', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(215): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Concession.php(696): App\Models\supplier\Concession_model->get_sales_division('normal', 'S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 15:48:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_items.item_divisions' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = \'S4607\'
+AND  `item_division` LIKE \'X%\' ESCAPE \'!\'
+AND  `item_dept_code` LIKE \'Y%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = \'S4607\'
+AND  `item_division` LIKE \'X%\' ESCAPE \'!\'
+AND  `item_dept_code` LIKE \'Y%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = :vendor_code:
+AND  `item_division` LIKE :item_division: ESCAPE \'!\'
+AND  `item_dept_code` LIKE :item_dept_code: ESCAPE \'!\'', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(215): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Concession.php(696): App\Models\supplier\Concession_model->get_sales_division('normal', 'S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 15:48:16 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_items.item_divisions' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = \'S4607\'
+AND  `item_division` LIKE \'X%\' ESCAPE \'!\'
+AND  `item_dept_code` LIKE \'Y%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = \'S4607\'
+AND  `item_division` LIKE \'X%\' ESCAPE \'!\'
+AND  `item_dept_code` LIKE \'Y%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = \'S4607\'
+AND  `item_division` LIKE \'X%\' ESCAPE \'!\'
+AND  `item_dept_code` LIKE \'Y%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT distinct(item_division)
+FROM `tbl_items`
+JOIN `tbl_item_division` ON `tbl_items`.`item_divisions` = `tbl_item_division`.`division_code`
+WHERE `vendor_code` = :vendor_code:
+AND  `item_division` LIKE :item_division: ESCAPE \'!\'
+AND  `item_dept_code` LIKE :item_dept_code: ESCAPE \'!\'', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(215): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Concession.php(696): App\Models\supplier\Concession_model->get_sales_division('normal', 'S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 15:49:32 --> ErrorException: Undefined variable $vendorcode
+[Method: GET, Route: vendor_sales_pdf/11483]
+in APPPATH\Controllers\Concession.php on line 734.
+ 1 APPPATH\Controllers\Concession.php(734): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vendorcode', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 734)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-24 15:49:53 --> mysqli_sql_exception: Unknown column 'tis.vendor_code' in 'field list' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tis`.`v...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tis`.`v...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tis`.`v...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tis`.`v...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(238): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Concession.php(734): App\Models\supplier\Concession_model->get_item_sales_report('1', '12301', 'S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-24 15:49:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tis.vendor_code' in 'field list'
+[Method: GET, Route: vendor_sales_pdf/11483]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = :tis.suf_id:
+AND `item_division` = :item_division:
+AND `tbl_items`.`vendor_code` = :tbl_items.vendor_code:', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(238): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Concession.php(734): App\Models\supplier\Concession_model->get_item_sales_report('1', '12301', 'S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 15:49:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tis.vendor_code' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = \'12301\'
+AND `item_division` = \'1\'
+AND `tbl_items`.`vendor_code` = \'S4607\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = \'12301\'
+AND `item_division` = \'1\'
+AND `tbl_items`.`vendor_code` = \'S4607\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = :tis.suf_id:
+AND `item_division` = :item_division:
+AND `tbl_items`.`vendor_code` = :tbl_items.vendor_code:', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(238): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Concession.php(734): App\Models\supplier\Concession_model->get_item_sales_report('1', '12301', 'S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 15:49:53 --> [Caused by] mysqli_sql_exception: Unknown column 'tis.vendor_code' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = \'12301\'
+AND `item_division` = \'1\'
+AND `tbl_items`.`vendor_code` = \'S4607\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = \'12301\'
+AND `item_division` = \'1\'
+AND `tbl_items`.`vendor_code` = \'S4607\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = \'12301\'
+AND `item_division` = \'1\'
+AND `tbl_items`.`vendor_code` = \'S4607\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_po_requisition` as `tbl_req`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = :tis.suf_id:
+AND `item_division` = :item_division:
+AND `tbl_items`.`vendor_code` = :tbl_items.vendor_code:', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(238): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Concession.php(734): App\Models\supplier\Concession_model->get_item_sales_report('1', '12301', 'S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-24 15:50:39 --> mysqli_sql_exception: Table 'duxvwc44_altstk.tbl_item_sales' doesn't exist in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tis`.`v...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tis`.`v...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tis`.`v...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tis`.`v...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(238): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Concession.php(734): App\Models\supplier\Concession_model->get_item_sales_report('1', '12301', 'S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-24 15:50:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altstk.tbl_item_sales' doesn't exist
+[Method: GET, Route: vendor_sales_pdf/11483]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_item_sales` as `tis`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = :tis.suf_id:
+AND `item_division` = :item_division:
+AND `tbl_items`.`vendor_code` = :tbl_items.vendor_code:', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(238): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Concession.php(734): App\Models\supplier\Concession_model->get_item_sales_report('1', '12301', 'S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 15:50:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altstk.tbl_item_sales' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_item_sales` as `tis`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = \'12301\'
+AND `item_division` = \'1\'
+AND `tbl_items`.`vendor_code` = \'S4607\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_item_sales` as `tis`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = \'12301\'
+AND `item_division` = \'1\'
+AND `tbl_items`.`vendor_code` = \'S4607\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_item_sales` as `tis`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = :tis.suf_id:
+AND `item_division` = :item_division:
+AND `tbl_items`.`vendor_code` = :tbl_items.vendor_code:', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(238): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Concession.php(734): App\Models\supplier\Concession_model->get_item_sales_report('1', '12301', 'S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 15:50:39 --> [Caused by] mysqli_sql_exception: Table 'duxvwc44_altstk.tbl_item_sales' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_item_sales` as `tis`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = \'12301\'
+AND `item_division` = \'1\'
+AND `tbl_items`.`vendor_code` = \'S4607\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_item_sales` as `tis`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = \'12301\'
+AND `item_division` = \'1\'
+AND `tbl_items`.`vendor_code` = \'S4607\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_item_sales` as `tis`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = \'12301\'
+AND `item_division` = \'1\'
+AND `tbl_items`.`vendor_code` = \'S4607\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_item_sales` as `tis`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = :tis.suf_id:
+AND `item_division` = :item_division:
+AND `tbl_items`.`vendor_code` = :tbl_items.vendor_code:', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(238): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Concession.php(734): App\Models\supplier\Concession_model->get_item_sales_report('1', '12301', 'S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-24 16:20:27 --> mysqli_sql_exception: Table 'duxvwc44_altstk.tbl_item_sales' doesn't exist in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tis`.`v...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tis`.`v...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tis`.`v...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tis`.`v...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(238): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Concession.php(734): App\Models\supplier\Concession_model->get_item_sales_report('1', '12301', 'S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-24 16:20:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altstk.tbl_item_sales' doesn't exist
+[Method: GET, Route: vendor_sales_pdf/11483]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_item_sales` as `tis`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = :tis.suf_id:
+AND `item_division` = :item_division:
+AND `tbl_items`.`vendor_code` = :tbl_items.vendor_code:', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(238): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Concession.php(734): App\Models\supplier\Concession_model->get_item_sales_report('1', '12301', 'S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 16:20:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altstk.tbl_item_sales' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_item_sales` as `tis`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = \'12301\'
+AND `item_division` = \'1\'
+AND `tbl_items`.`vendor_code` = \'S4607\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_item_sales` as `tis`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = \'12301\'
+AND `item_division` = \'1\'
+AND `tbl_items`.`vendor_code` = \'S4607\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_item_sales` as `tis`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = :tis.suf_id:
+AND `item_division` = :item_division:
+AND `tbl_items`.`vendor_code` = :tbl_items.vendor_code:', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(238): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Concession.php(734): App\Models\supplier\Concession_model->get_item_sales_report('1', '12301', 'S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 16:20:27 --> [Caused by] mysqli_sql_exception: Table 'duxvwc44_altstk.tbl_item_sales' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_item_sales` as `tis`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = \'12301\'
+AND `item_division` = \'1\'
+AND `tbl_items`.`vendor_code` = \'S4607\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_item_sales` as `tis`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = \'12301\'
+AND `item_division` = \'1\'
+AND `tbl_items`.`vendor_code` = \'S4607\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_item_sales` as `tis`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = \'12301\'
+AND `item_division` = \'1\'
+AND `tbl_items`.`vendor_code` = \'S4607\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tis`.`vendor_code`, `tis`.`qty`, `tis`.`item_code`, `tis`.`item_desc`, `tis`.`net_sale_with_vat`, `tis`.`total_disc`
+FROM `tbl_item_sales` as `tis`
+INNER JOIN `tbl_items` ON `tbl_items`.`item_code` = `tis`.`item_code`
+WHERE `tis`.`suf_id` = :tis.suf_id:
+AND `item_division` = :item_division:
+AND `tbl_items`.`vendor_code` = :tbl_items.vendor_code:', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(238): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Concession.php(734): App\Models\supplier\Concession_model->get_item_sales_report('1', '12301', 'S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-24 16:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-24 16:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

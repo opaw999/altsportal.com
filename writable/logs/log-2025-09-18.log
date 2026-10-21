@@ -1,0 +1,1301 @@
+CRITICAL - 2025-09-18 02:58:19 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\BaseController.php(60): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:00:33 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\BaseController.php(60): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:00:37 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\BaseController.php(60): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:01:01 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\BaseController.php(60): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:01:04 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\BaseController.php(60): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:01:08 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\BaseController.php(60): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:01:25 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\BaseController.php(60): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:01:27 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\BaseController.php(60): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:01:36 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\BaseController.php(60): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:02:06 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\BaseController.php(60): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:02:42 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\BaseController.php(60): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:30:28 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:31:50 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:31:59 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:32:51 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:33:47 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:39:37 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\BaseController.php(59): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:41:12 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:41:37 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:42:11 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:42:37 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:43:42 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:44:01 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:45:38 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Login->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:45:55 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Login->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:46:50 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Login->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:47:13 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Login->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:51:14 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Login->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:52:39 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Login->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:53:29 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Login->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:54:34 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\Login.php(20): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:55:13 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\Home.php(19): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->authenticate()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 03:59:11 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH\Config\Factories.php(236): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH\Config\Factories.php(170): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\LoginModel', [...])
+ 6 SYSTEMPATH\Common.php(801): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 7 APPPATH\Controllers\Login.php(15): model('LoginModel')
+ 8 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Login->__construct()
+ 9 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:05:15 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Login->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:06:18 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Login->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:10:45 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(20): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:14:32 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:15:27 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(13): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:15:54 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(13): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:15:58 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(13): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:19:08 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:20:11 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:21:24 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:22:11 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:22:15 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:25:50 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:31:03 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:31:40 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Login.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:35:24 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:36:15 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:36:38 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:37:26 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:38:13 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(17): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:38:56 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(20): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:38:57 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(20): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:41:15 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:41:16 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:41:17 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:41:21 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:41:21 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:42:00 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:42:51 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:43:02 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:43:05 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:43:17 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:45:31 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:45:32 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:45:40 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:45:56 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:46:02 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:51:57 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:52:47 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(12): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:53:35 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH\Config\Factories.php(236): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH\Config\Factories.php(170): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\Loginmodel', [...])
+ 6 SYSTEMPATH\Common.php(801): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 7 APPPATH\Controllers\Home.php(13): model('Loginmodel')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:53:38 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH\Config\Factories.php(236): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH\Config\Factories.php(170): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\Loginmodel', [...])
+ 6 SYSTEMPATH\Common.php(801): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 7 APPPATH\Controllers\Home.php(13): model('Loginmodel')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:56:05 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH\Config\Factories.php(236): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH\Config\Factories.php(170): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\Loginmodel', [...])
+ 6 SYSTEMPATH\Common.php(801): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 7 APPPATH\Controllers\Home.php(13): model('App\\Models\\Loginmodel')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:56:07 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH\Config\Factories.php(236): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH\Config\Factories.php(170): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\Loginmodel', [...])
+ 6 SYSTEMPATH\Common.php(801): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 7 APPPATH\Controllers\Home.php(13): model('App\\Models\\Loginmodel')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:57:56 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH\Config\Factories.php(236): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH\Config\Factories.php(170): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\Loginmodel', [...])
+ 6 SYSTEMPATH\Common.php(801): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 7 APPPATH\Controllers\Home.php(16): model('App\\Models\\Loginmodel')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:58:41 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH\Config\Factories.php(236): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH\Config\Factories.php(170): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\Loginmodel', [...])
+ 6 SYSTEMPATH\Common.php(801): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 7 APPPATH\Controllers\Home.php(16): model('App\\Models\\Loginmodel')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:58:58 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH\Config\Factories.php(236): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH\Config\Factories.php(170): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\Loginmodel', [...])
+ 6 SYSTEMPATH\Common.php(801): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 7 APPPATH\Controllers\Home.php(16): model('App\\Models\\Loginmodel')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 05:59:15 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH\Config\Factories.php(236): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH\Config\Factories.php(170): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\Loginmodel', [...])
+ 6 SYSTEMPATH\Common.php(801): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 7 APPPATH\Controllers\Home.php(16): model('App\\Models\\Loginmodel')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 06:01:43 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH\Config\Factories.php(236): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH\Config\Factories.php(170): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\Loginmodel', [...])
+ 6 SYSTEMPATH\Common.php(801): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 7 APPPATH\Controllers\Home.php(16): model('App\\Models\\Loginmodel')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 06:04:40 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'timekeeping')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('timekeeping')
+ 4 SYSTEMPATH\Config\Factories.php(236): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH\Config\Factories.php(170): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\Loginmodel', [...])
+ 6 SYSTEMPATH\Common.php(801): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 7 APPPATH\Controllers\Home.php(16): model('App\\Models\\Loginmodel')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 06:04:42 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "mysqli" is not loaded. Install and enable it to use "MySQLi" driver.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Database.php on line 182.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('MySQLi')
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'timekeeping')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('timekeeping')
+ 4 SYSTEMPATH\Config\Factories.php(236): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH\Config\Factories.php(170): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\Loginmodel', [...])
+ 6 SYSTEMPATH\Common.php(801): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 7 APPPATH\Controllers\Home.php(16): model('App\\Models\\Loginmodel')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 06:10:29 --> CodeIgniter\Exceptions\InvalidArgumentException: "default" is not a valid database connection group.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 APPPATH\Controllers\Home.php(23): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->authenticate()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 06:11:00 --> CodeIgniter\Exceptions\InvalidArgumentException: "default" is not a valid database connection group.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 APPPATH\Controllers\Home.php(23): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->authenticate()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 06:11:08 --> CodeIgniter\Exceptions\InvalidArgumentException: "default" is not a valid database connection group.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 APPPATH\Controllers\Home.php(26): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->authenticate()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 06:11:45 --> CodeIgniter\Exceptions\InvalidArgumentException: "default" is not a valid database connection group.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 APPPATH\Controllers\Home.php(26): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->authenticate()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 06:11:59 --> CodeIgniter\Exceptions\InvalidArgumentException: "default" is not a valid database connection group.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 APPPATH\Controllers\Home.php(26): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->authenticate()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 06:12:43 --> CodeIgniter\Exceptions\InvalidArgumentException: "default" is not a valid database connection group.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 APPPATH\Controllers\Home.php(26): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->authenticate()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 06:14:05 --> CodeIgniter\Exceptions\InvalidArgumentException: "default" is not a valid database connection group.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 APPPATH\Controllers\Home.php(26): CodeIgniter\Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->authenticate()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 06:14:21 --> CodeIgniter\Exceptions\InvalidArgumentException: "default" is not a valid database connection group.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 SYSTEMPATH\Config\Factories.php(236): CodeIgniter\Model->__construct(null)
+ 3 SYSTEMPATH\Config\Factories.php(170): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\Loginmodel', [...])
+ 4 SYSTEMPATH\Common.php(801): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 5 APPPATH\Controllers\Home.php(16): model('App\\Models\\Loginmodel')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 06:14:22 --> CodeIgniter\Exceptions\InvalidArgumentException: "default" is not a valid database connection group.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 SYSTEMPATH\Config\Factories.php(236): CodeIgniter\Model->__construct(null)
+ 3 SYSTEMPATH\Config\Factories.php(170): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\Loginmodel', [...])
+ 4 SYSTEMPATH\Common.php(801): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 5 APPPATH\Controllers\Home.php(16): model('App\\Models\\Loginmodel')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 06:14:31 --> CodeIgniter\Exceptions\InvalidArgumentException: "default" is not a valid database connection group.
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 2 SYSTEMPATH\Config\Factories.php(236): CodeIgniter\Model->__construct(null)
+ 3 SYSTEMPATH\Config\Factories.php(170): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\Loginmodel', [...])
+ 4 SYSTEMPATH\Common.php(801): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 5 APPPATH\Controllers\Home.php(16): model('App\\Models\\Loginmodel')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 06:35:22 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\LoginModel.php(12): CodeIgniter\Model->__call('where', [...])
+ 4 APPPATH\Controllers\Home.php(18): App\Models\LoginModel->check('test')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 06:48:18 --> Error: Class "App\Models\Database" not found
+[Method: GET, Route: /]
+in APPPATH\Models\LoginModel.php on line 22.
+ 1 APPPATH\Controllers\BaseController.php(58): App\Models\LoginModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 08:09:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page/dashboard.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('page/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 08:09:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page/dashboard.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('page/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('page/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 08:28:18 --> ErrorException: Undefined property: App\Controllers\Home::$load
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 51.
+ 1 APPPATH\Controllers\Home.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\laragon\\www\\test\\app\\Controllers\\Home.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->menu()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 08:48:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "template/header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/header.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('template/header', [], true)
+ 3 APPPATH\Controllers\Home.php(63): view('template/header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->menu()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

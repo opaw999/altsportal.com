@@ -1,0 +1,2024 @@
+DEBUG - 2025-11-13 08:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 09:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 09:41:23 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: page/menu/cms/vis]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Page.php(43): CodeIgniter\Model->__call('countVendorCode', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 09:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 09:43:04 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+[Method: GET, Route: page/menu/cms/vis]
+in APPPATH\Models\supplier\Concession_model.php on line 41.
+ 1 APPPATH\Controllers\Page.php(43): App\Models\supplier\Concession_model->countVendorCode('vendor_id = \'455\' ')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 10:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 10:20:25 --> ErrorException: Undefined variable $supplierId
+[Method: GET, Route: page/menu/cms/vis]
+in APPPATH\Models\supplier\Concession_model.php on line 59.
+ 1 APPPATH\Models\supplier\Concession_model.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $supplierId', 'C:\\laragon\\www\\altsportal.com\\app\\Models\\supplier\\Concession_model.php', 59)
+ 2 APPPATH\Controllers\Page.php(44): App\Models\supplier\Concession_model->getVendorCodes('vendor_id = \'455\' ')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 10:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 10:20:40 --> ErrorException: Undefined variable $supplierId
+[Method: GET, Route: page/menu/cms/vis]
+in APPPATH\Models\supplier\Concession_model.php on line 59.
+ 1 APPPATH\Models\supplier\Concession_model.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $supplierId', 'C:\\laragon\\www\\altsportal.com\\app\\Models\\supplier\\Concession_model.php', 59)
+ 2 APPPATH\Controllers\Page.php(44): App\Models\supplier\Concession_model->getVendorCodes('455')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 10:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 10:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 10:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 10:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 10:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 10:26:27 --> ErrorException: Undefined variable $vcodes
+[Method: GET, Route: page/menu/cms/cas]
+in APPPATH\Views\body\cms\cas\cas.php on line 28.
+ 1 APPPATH\Views\body\cms\cas\cas.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vcodes', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\cas\\cas.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\cas\\cas.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/cas/cas', [], true)
+ 5 APPPATH\Controllers\Page.php(73): view('body/cms/cas/cas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'cas')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 10:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 10:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 10:27:00 --> ErrorException: Undefined variable $vcodes
+[Method: GET, Route: page/menu/cms/vis]
+in APPPATH\Views\body\cms\vis\vis.php on line 31.
+ 1 APPPATH\Views\body\cms\vis\vis.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vcodes', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\vis\\vis.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\vis\\vis.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/vis/vis', [], true)
+ 5 APPPATH\Controllers\Page.php(73): view('body/cms/vis/vis', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 10:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 10:27:34 --> ErrorException: Array to string conversion
+[Method: GET, Route: page/menu/cms/vis]
+in APPPATH\Controllers\Page.php on line 50.
+ 1 APPPATH\Controllers\Page.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Page.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 10:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 10:27:53 --> ErrorException: Array to string conversion
+[Method: GET, Route: page/menu/cms/vis]
+in APPPATH\Controllers\Page.php on line 50.
+ 1 APPPATH\Controllers\Page.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Page.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 10:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 10:28:16 --> ErrorException: Array to string conversion
+[Method: GET, Route: page/menu/cms/vis]
+in APPPATH\Controllers\Page.php on line 50.
+ 1 APPPATH\Controllers\Page.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Page.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 10:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 10:28:17 --> ErrorException: Array to string conversion
+[Method: GET, Route: page/menu/cms/vis]
+in APPPATH\Controllers\Page.php on line 50.
+ 1 APPPATH\Controllers\Page.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Page.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 10:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 10:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 10:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 10:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 10:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 10:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 10:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 10:31:34 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+[Method: GET, Route: page/menu/cms/vis]
+in APPPATH\Models\supplier\Concession_model.php on line 16.
+ 1 APPPATH\Controllers\Page.php(50): App\Models\supplier\Concession_model->getfrmtblwhere('tbl_vis', 'vendor_code=\'FM6082\'')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 10:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 10:35:18 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+[Method: GET, Route: page/menu/cms/vis]
+in APPPATH\Models\supplier\Concession_model.php on line 16.
+ 1 APPPATH\Controllers\Page.php(52): App\Models\supplier\Concession_model->getfrmtblwhere('tbl_vis', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 10:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 10:35:19 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+[Method: GET, Route: page/menu/cms/vis]
+in APPPATH\Models\supplier\Concession_model.php on line 16.
+ 1 APPPATH\Controllers\Page.php(52): App\Models\supplier\Concession_model->getfrmtblwhere('tbl_vis', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 10:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 10:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 10:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 10:38:19 --> ErrorException: Undefined array key 1
+[Method: GET, Route: page/menu/cms/vis]
+in APPPATH\Views\body\cms\vis\vis.php on line 32.
+ 1 APPPATH\Views\body\cms\vis\vis.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\vis\\vis.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\vis\\vis.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/vis/vis', [], true)
+ 5 APPPATH\Controllers\Page.php(75): view('body/cms/vis/vis', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 10:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 10:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 10:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 10:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 10:38:54 --> ErrorException: Undefined array key 1
+[Method: GET, Route: page/menu/cms/vis]
+in APPPATH\Views\body\cms\vis\vis.php on line 32.
+ 1 APPPATH\Views\body\cms\vis\vis.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\vis\\vis.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\vis\\vis.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/vis/vis', [], true)
+ 5 APPPATH\Controllers\Page.php(75): view('body/cms/vis/vis', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 10:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 10:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 10:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 10:39:50 --> ErrorException: Undefined array key 1
+[Method: GET, Route: page/menu/cms/vis]
+in APPPATH\Views\body\cms\vis\vis.php on line 35.
+ 1 APPPATH\Views\body\cms\vis\vis.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\vis\\vis.php', 35)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\vis\\vis.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/vis/vis', [], true)
+ 5 APPPATH\Controllers\Page.php(76): view('body/cms/vis/vis', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 10:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 10:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-13 10:40:18 --> mysqli_sql_exception: Table 'duxvwc44_altstk.tbl_viss' doesn't exist in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(52): App\Models\supplier\Concession_model->getfrmtblwhere('tbl_viss', Array)
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-13 10:40:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altstk.tbl_viss' doesn't exist
+[Method: GET, Route: page/menu/cms/vis]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_viss`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(52): App\Models\supplier\Concession_model->getfrmtblwhere('tbl_viss', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 10:40:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altstk.tbl_viss' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_viss`
+WHERE `vendor_code` = \'FM6082\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_viss`
+WHERE `vendor_code` = \'FM6082\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_viss`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(52): App\Models\supplier\Concession_model->getfrmtblwhere('tbl_viss', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 10:40:18 --> [Caused by] mysqli_sql_exception: Table 'duxvwc44_altstk.tbl_viss' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `tbl_viss`
+WHERE `vendor_code` = \'FM6082\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_viss`
+WHERE `vendor_code` = \'FM6082\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_viss`
+WHERE `vendor_code` = \'FM6082\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_viss`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(52): App\Models\supplier\Concession_model->getfrmtblwhere('tbl_viss', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 10:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 10:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 10:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 10:54:13 --> ErrorException: Undefined array key 1
+[Method: GET, Route: page/menu/cms/cas]
+in APPPATH\Views\body\cms\cas\cas.php on line 29.
+ 1 APPPATH\Views\body\cms\cas\cas.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\cas\\cas.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\cas\\cas.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/cas/cas', [], true)
+ 5 APPPATH\Controllers\Page.php(76): view('body/cms/cas/cas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'cas')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 10:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 10:54:30 --> ErrorException: Undefined variable $cas_tbl
+[Method: GET, Route: page/menu/cms/cas]
+in APPPATH\Views\body\cms\cas\cas.php on line 48.
+ 1 APPPATH\Views\body\cms\cas\cas.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cas_tbl', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\cas\\cas.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\cas\\cas.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/cas/cas', [], true)
+ 5 APPPATH\Controllers\Page.php(76): view('body/cms/cas/cas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'cas')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 10:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 10:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 10:56:18 --> ErrorException: Undefined array key 1
+[Method: GET, Route: page/menu/cms/po]
+in APPPATH\Views\body\cms\po\po.php on line 29.
+ 1 APPPATH\Views\body\cms\po\po.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\po\\po.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\po\\po.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/po/po', [], true)
+ 5 APPPATH\Controllers\Page.php(75): view('body/cms/po/po', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 10:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 10:56:31 --> Error: Call to a member function getVendorCode() on null
+[Method: GET, Route: page/menu/cms/po]
+in APPPATH\Views\body\cms\po\po.php on line 33.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/po/po', [], true)
+ 4 APPPATH\Controllers\Page.php(75): view('body/cms/po/po', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 10:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 10:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 10:56:40 --> ErrorException: Undefined array key 1
+[Method: GET, Route: page/menu/cms/items]
+in APPPATH\Views\body\cms\items\items.php on line 29.
+ 1 APPPATH\Views\body\cms\items\items.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\items\\items.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\items\\items.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/items/items', [], true)
+ 5 APPPATH\Controllers\Page.php(75): view('body/cms/items/items', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'items')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 11:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-13 11:03:11 --> mysqli_sql_exception: Table 'duxvwc44_altstk.tbl_cas' doesn't exist in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(53): App\Models\supplier\Concession_model->getalltblwhere('tbl_cas', Array)
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'items')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-13 11:03:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altstk.tbl_cas' doesn't exist
+[Method: GET, Route: page/menu/cms/items]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(53): App\Models\supplier\Concession_model->getalltblwhere('tbl_cas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'items')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 11:03:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altstk.tbl_cas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(53): App\Models\supplier\Concession_model->getalltblwhere('tbl_cas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'items')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 11:03:11 --> [Caused by] mysqli_sql_exception: Table 'duxvwc44_altstk.tbl_cas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(53): App\Models\supplier\Concession_model->getalltblwhere('tbl_cas', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'items')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 11:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-13 11:03:29 --> mysqli_sql_exception: Table 'duxvwc44_altstk.tbl_cas' doesn't exist in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(53): App\Models\supplier\Concession_model->getalltblwhere('tbl_cas', Array)
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'cas')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-13 11:03:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altstk.tbl_cas' doesn't exist
+[Method: GET, Route: page/menu/cms/cas]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(53): App\Models\supplier\Concession_model->getalltblwhere('tbl_cas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'cas')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 11:03:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altstk.tbl_cas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(53): App\Models\supplier\Concession_model->getalltblwhere('tbl_cas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'cas')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 11:03:29 --> [Caused by] mysqli_sql_exception: Table 'duxvwc44_altstk.tbl_cas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(53): App\Models\supplier\Concession_model->getalltblwhere('tbl_cas', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'cas')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 11:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-13 11:03:32 --> mysqli_sql_exception: Table 'duxvwc44_altstk.tbl_cas' doesn't exist in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(53): App\Models\supplier\Concession_model->getalltblwhere('tbl_cas', Array)
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-13 11:03:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altstk.tbl_cas' doesn't exist
+[Method: GET, Route: page/menu/cms/vis]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(53): App\Models\supplier\Concession_model->getalltblwhere('tbl_cas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 11:03:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altstk.tbl_cas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(53): App\Models\supplier\Concession_model->getalltblwhere('tbl_cas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 11:03:32 --> [Caused by] mysqli_sql_exception: Table 'duxvwc44_altstk.tbl_cas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(53): App\Models\supplier\Concession_model->getalltblwhere('tbl_cas', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 11:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 11:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-13 11:03:40 --> mysqli_sql_exception: Table 'duxvwc44_altstk.tbl_cas' doesn't exist in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(53): App\Models\supplier\Concession_model->getalltblwhere('tbl_cas', Array)
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-13 11:03:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altstk.tbl_cas' doesn't exist
+[Method: GET, Route: page/menu/cms/vis]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(53): App\Models\supplier\Concession_model->getalltblwhere('tbl_cas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 11:03:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altstk.tbl_cas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(53): App\Models\supplier\Concession_model->getalltblwhere('tbl_cas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 11:03:40 --> [Caused by] mysqli_sql_exception: Table 'duxvwc44_altstk.tbl_cas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(53): App\Models\supplier\Concession_model->getalltblwhere('tbl_cas', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 11:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-13 11:04:27 --> mysqli_sql_exception: Table 'duxvwc44_altstk.tbl_cas' doesn't exist in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(53): App\Models\supplier\Concession_model->getalltblwhere('tbl_cas', Array)
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-13 11:04:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altstk.tbl_cas' doesn't exist
+[Method: GET, Route: page/menu/cms/vis]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(53): App\Models\supplier\Concession_model->getalltblwhere('tbl_cas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 11:04:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altstk.tbl_cas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(53): App\Models\supplier\Concession_model->getalltblwhere('tbl_cas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 11:04:27 --> [Caused by] mysqli_sql_exception: Table 'duxvwc44_altstk.tbl_cas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = \'FM6082\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_cas`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(53): App\Models\supplier\Concession_model->getalltblwhere('tbl_cas', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'vis')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 11:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 11:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 11:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 11:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 11:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 11:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 13:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 13:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 13:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 13:28:18 --> Error: Call to a member function getVendorCode() on null
+[Method: GET, Route: page/menu/cms/po]
+in APPPATH\Views\body\cms\po\po.php on line 33.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/po/po', [], true)
+ 4 APPPATH\Controllers\Page.php(75): view('body/cms/po/po', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 13:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 13:31:13 --> ParseError: syntax error, unexpected token "->"
+[Method: GET, Route: page/menu/cms/cas]
+in APPPATH\Models\supplier\Concession_model.php on line 71.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\altsportal.com\\app\\Models\\supplier\\Concession_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\supplier\\Concession_model')
+ 3 APPPATH\Controllers\BaseController.php(91): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\supplier\\Concession_model')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 13:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 13:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 13:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 13:33:23 --> ErrorException: Undefined variable $vcode
+[Method: POST, Route: show_cas]
+in APPPATH\Controllers\Concession.php on line 787.
+ 1 APPPATH\Controllers\Concession.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vcode', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 787)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once('C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Concession')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Concession')
+ 6 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Concession', true)
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 13:33:52 --> ErrorException: Undefined variable $vcode
+[Method: POST, Route: show_cas]
+in APPPATH\Controllers\Concession.php on line 787.
+ 1 APPPATH\Controllers\Concession.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vcode', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 787)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once('C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Concession')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Concession')
+ 6 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Concession', true)
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 13:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 13:34:20 --> ErrorException: Undefined variable $vcode
+[Method: GET, Route: show_cas]
+in APPPATH\Controllers\Concession.php on line 787.
+ 1 APPPATH\Controllers\Concession.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vcode', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 787)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once('C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Concession')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Concession')
+ 6 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Concession', true)
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 13:35:43 --> ErrorException: Undefined array key "casid"
+[Method: GET, Route: show_cas]
+in APPPATH\Controllers\Concession.php on line 8.
+ 1 APPPATH\Controllers\Concession.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "casid"', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 8)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 13:36:10 --> ErrorException: Undefined property: App\Controllers\Concession::$input
+[Method: GET, Route: show_cas]
+in APPPATH\Controllers\Concession.php on line 8.
+ 1 APPPATH\Controllers\Concession.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Concession::$input', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 8)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 13:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 13:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 13:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 13:46:46 --> ErrorException: Undefined array key 1
+[Method: GET, Route: page/menu/cms/items]
+in APPPATH\Views\body\cms\items\items.php on line 29.
+ 1 APPPATH\Views\body\cms\items\items.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\items\\items.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\items\\items.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/items/items', [], true)
+ 5 APPPATH\Controllers\Page.php(75): view('body/cms/items/items', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'items')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 13:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 13:48:23 --> ErrorException: Undefined variable $vcode
+[Method: GET, Route: page/menu/cms/items]
+in APPPATH\Views\body\cms\items\items.php on line 44.
+ 1 APPPATH\Views\body\cms\items\items.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vcode', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\items\\items.php', 44)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\items\\items.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/items/items', [], true)
+ 5 APPPATH\Controllers\Page.php(75): view('body/cms/items/items', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'items')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 13:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 13:52:07 --> ErrorException: Undefined variable $vcode
+[Method: GET, Route: page/menu/cms/items]
+in APPPATH\Views\body\cms\items\items.php on line 44.
+ 1 APPPATH\Views\body\cms\items\items.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vcode', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\items\\items.php', 44)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\items\\items.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/items/items', [], true)
+ 5 APPPATH\Controllers\Page.php(75): view('body/cms/items/items', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'items')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 13:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 13:52:23 --> Error: Call to a member function getVendorCode() on null
+[Method: GET, Route: page/menu/cms/items]
+in APPPATH\Views\body\cms\items\items.php on line 45.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/items/items', [], true)
+ 4 APPPATH\Controllers\Page.php(75): view('body/cms/items/items', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'items')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 13:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 13:53:18 --> Error: Call to a member function getVendorCode() on null
+[Method: GET, Route: page/menu/cms/items]
+in APPPATH\Views\body\cms\items\items.php on line 45.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/items/items', [], true)
+ 4 APPPATH\Controllers\Page.php(75): view('body/cms/items/items', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'items')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 13:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 13:53:28 --> Error: Call to a member function getVendorCode() on null
+[Method: GET, Route: page/menu/cms/items]
+in APPPATH\Views\body\cms\items\items.php on line 45.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/items/items', [], true)
+ 4 APPPATH\Controllers\Page.php(75): view('body/cms/items/items', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'items')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 14:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 14:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 14:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 14:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 14:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 14:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 14:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 14:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 14:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 14:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 14:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 14:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 14:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 14:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 14:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 14:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 14:33:09 --> Error: Call to a member function getVendorCode() on null
+[Method: GET, Route: page/menu/cms/po]
+in APPPATH\Views\body\cms\po\po.php on line 33.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/po/po', [], true)
+ 4 APPPATH\Controllers\Page.php(78): view('body/cms/po/po', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 14:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 14:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 14:46:21 --> ErrorException: Undefined property: App\Controllers\Concession::$load
+[Method: GET, Route: items_pdf/SOD0283]
+in APPPATH\Controllers\Concession.php on line 121.
+ 1 APPPATH\Controllers\Concession.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Concession::$load', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->items_pdf('SOD0283')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 14:49:38 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: items_pdf/SOD0283]
+in APPPATH\Views\body\cms\items\items_pdf.php on line 3.
+ 1 APPPATH\Views\body\cms\items\items_pdf.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\items\\items_pdf.php', 3)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\items\\items_pdf.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/items/items_pdf', [], true)
+ 5 APPPATH\Controllers\Concession.php(122): view('body/cms/items/items_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->items_pdf('SOD0283')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 14:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 15:04:30 --> ErrorException: Undefined property: App\Controllers\Concession::$input
+[Method: GET, Route: view_vis]
+in APPPATH\Controllers\Concession.php on line 119.
+ 1 APPPATH\Controllers\Concession.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Concession::$input', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 119)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_vis()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 15:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 15:05:01 --> ErrorException: Undefined property: App\Controllers\Concession::$input
+[Method: GET, Route: view_vis]
+in APPPATH\Controllers\Concession.php on line 119.
+ 1 APPPATH\Controllers\Concession.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Concession::$input', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 119)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_vis()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 15:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 15:09:31 --> ErrorException: Undefined property: App\Controllers\Concession::$input
+[Method: POST, Route: view_vis]
+in APPPATH\Controllers\Concession.php on line 119.
+ 1 APPPATH\Controllers\Concession.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Concession::$input', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 119)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_vis()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 15:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 15:10:02 --> ErrorException: Undefined property: App\Controllers\Concession::$input
+[Method: POST, Route: view_vis]
+in APPPATH\Controllers\Concession.php on line 119.
+ 1 APPPATH\Controllers\Concession.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Concession::$input', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 119)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_vis()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 15:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 15:13:37 --> ErrorException: Undefined property: App\Controllers\Concession::$input
+[Method: GET, Route: view_vis]
+in APPPATH\Controllers\Concession.php on line 119.
+ 1 APPPATH\Controllers\Concession.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Concession::$input', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 119)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_vis()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 15:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 15:25:46 --> ErrorException: Undefined property: App\Controllers\Concession::$input
+[Method: GET, Route: view_vis]
+in APPPATH\Controllers\Concession.php on line 119.
+ 1 APPPATH\Controllers\Concession.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Concession::$input', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 119)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_vis()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 15:25:51 --> ErrorException: Undefined property: App\Controllers\Concession::$input
+[Method: GET, Route: view_vis]
+in APPPATH\Controllers\Concession.php on line 119.
+ 1 APPPATH\Controllers\Concession.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Concession::$input', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 119)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_vis()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 15:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 15:31:01 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: items_pdf/S4607]
+in APPPATH\Views\body\cms\items\items_pdf.php on line 3.
+ 1 APPPATH\Views\body\cms\items\items_pdf.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\items\\items_pdf.php', 3)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\items\\items_pdf.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/items/items_pdf', [], true)
+ 5 APPPATH\Controllers\Concession.php(307): view('body/cms/items/items_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->items_pdf('S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 15:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 15:34:54 --> Error: Call to a member function getVendorCode() on null
+[Method: GET, Route: page/menu/cms/po]
+in APPPATH\Views\body\cms\po\po.php on line 33.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/po/po', [], true)
+ 4 APPPATH\Controllers\Page.php(78): view('body/cms/po/po', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'po')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 15:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-13 15:35:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3 in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Dtr_model.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(73): App\Models\supplier\Dtr_model->supplier_cutoffs_sched('150')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('violation', 'supplier')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-13 15:35:08 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+[Method: GET, Route: page/menu/violation/supplier]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN :statCut:', [...], false)
+ 2 APPPATH\Models\supplier\Dtr_model.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(73): App\Models\supplier\Dtr_model->supplier_cutoffs_sched('150')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('violation', 'supplier')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 15:35:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN :statCut:', [...], false)
+ 4 APPPATH\Models\supplier\Dtr_model.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(73): App\Models\supplier\Dtr_model->supplier_cutoffs_sched('150')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('violation', 'supplier')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 15:35:08 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN :statCut:', [...], false)
+ 5 APPPATH\Models\supplier\Dtr_model.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(73): App\Models\supplier\Dtr_model->supplier_cutoffs_sched('150')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('violation', 'supplier')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 15:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-13 15:35:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3 in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Dtr_model.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(73): App\Models\supplier\Dtr_model->supplier_cutoffs_sched('150')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('violation', 'employee')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-13 15:35:14 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+[Method: GET, Route: page/menu/violation/employee]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN :statCut:', [...], false)
+ 2 APPPATH\Models\supplier\Dtr_model.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(73): App\Models\supplier\Dtr_model->supplier_cutoffs_sched('150')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('violation', 'employee')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 15:35:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN :statCut:', [...], false)
+ 4 APPPATH\Models\supplier\Dtr_model.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(73): App\Models\supplier\Dtr_model->supplier_cutoffs_sched('150')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('violation', 'employee')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 15:35:14 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN :statCut:', [...], false)
+ 5 APPPATH\Models\supplier\Dtr_model.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(73): App\Models\supplier\Dtr_model->supplier_cutoffs_sched('150')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('violation', 'employee')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 15:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-13 15:35:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3 in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Dtr_model.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(88): App\Models\supplier\Dtr_model->supplier_cutoffs_sched('150')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('dtr', 'dtr')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-13 15:35:17 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+[Method: GET, Route: page/menu/dtr/dtr]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN :statCut:', [...], false)
+ 2 APPPATH\Models\supplier\Dtr_model.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(88): App\Models\supplier\Dtr_model->supplier_cutoffs_sched('150')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('dtr', 'dtr')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 15:35:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN :statCut:', [...], false)
+ 4 APPPATH\Models\supplier\Dtr_model.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(88): App\Models\supplier\Dtr_model->supplier_cutoffs_sched('150')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('dtr', 'dtr')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 15:35:17 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN :statCut:', [...], false)
+ 5 APPPATH\Models\supplier\Dtr_model.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(88): App\Models\supplier\Dtr_model->supplier_cutoffs_sched('150')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('dtr', 'dtr')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 15:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-13 15:35:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3 in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Dtr_model.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(73): App\Models\supplier\Dtr_model->supplier_cutoffs_sched('150')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('violation', 'supplier')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-13 15:35:21 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+[Method: GET, Route: page/menu/violation/supplier]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN :statCut:', [...], false)
+ 2 APPPATH\Models\supplier\Dtr_model.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(73): App\Models\supplier\Dtr_model->supplier_cutoffs_sched('150')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('violation', 'supplier')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 15:35:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN :statCut:', [...], false)
+ 4 APPPATH\Models\supplier\Dtr_model.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(73): App\Models\supplier\Dtr_model->supplier_cutoffs_sched('150')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('violation', 'supplier')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 15:35:21 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN ()')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `promo_schedule`
+WHERE `statCut` IN :statCut:', [...], false)
+ 5 APPPATH\Models\supplier\Dtr_model.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(73): App\Models\supplier\Dtr_model->supplier_cutoffs_sched('150')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('violation', 'supplier')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 15:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 15:39:16 --> ErrorException: Undefined property: App\Controllers\Concession::$input
+[Method: GET, Route: show_cas]
+in APPPATH\Controllers\Concession.php on line 16.
+ 1 APPPATH\Controllers\Concession.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Concession::$input', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 15:40:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: show_cas]
+in APPPATH\Controllers\Concession.php on line 13.
+ 1 APPPATH\Controllers\Concession.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 15:40:56 --> ErrorException: Attempt to read property "cas_id" on null
+[Method: GET, Route: show_cas]
+in APPPATH\Controllers\Concession.php on line 25.
+ 1 APPPATH\Controllers\Concession.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cas_id" on null', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 15:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 15:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 16:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 16:12:25 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: show_cas]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Concession.php(13): CodeIgniter\Model->__call('cDF', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 16:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 16:14:30 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: show_cas]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Concession.php(13): CodeIgniter\Model->__call('cDF', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 16:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 16:14:54 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: show_cas]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Concession.php(13): CodeIgniter\Model->__call('cDF', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 16:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 16:15:16 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: show_cas]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Concession.php(13): CodeIgniter\Model->__call('cDF', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 16:15:22 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: show_cas]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Concession.php(13): CodeIgniter\Model->__call('cDF', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 16:16:44 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: show_cas]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Concession.php(12): CodeIgniter\Model->__call('cDF', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 16:18:25 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: show_cas]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Concession.php(12): CodeIgniter\Model->__call('cDF', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 16:18:26 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: show_cas]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Concession.php(12): CodeIgniter\Model->__call('cDF', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 16:18:26 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: show_cas]
+in SYSTEMPATH\Database\BaseConnection.php on line 944.
+ 1 SYSTEMPATH\Model.php(713): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Concession.php(12): CodeIgniter\Model->__call('cDF', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-13 16:18:49 --> mysqli_sql_exception: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT group_co...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT group_co...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT group_co...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_co...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-13 16:18:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause'
+[Method: GET, Route: show_cas]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 16:18:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 16:18:49 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 16:18:53 --> ErrorException: Undefined variable $location
+[Method: GET, Route: show_cas]
+in APPPATH\Controllers\Concession.php on line 19.
+ 1 APPPATH\Controllers\Concession.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $location', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 16:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-13 16:21:40 --> mysqli_sql_exception: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT group_co...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT group_co...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT group_co...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_co...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-13 16:21:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause'
+[Method: GET, Route: show_cas]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 16:21:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 16:21:40 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 16:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-13 16:23:17 --> mysqli_sql_exception: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT group_co...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT group_co...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT group_co...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_co...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-13 16:23:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause'
+[Method: GET, Route: show_cas]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 16:23:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 16:23:17 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-13 16:23:36 --> mysqli_sql_exception: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT group_co...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT group_co...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT group_co...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_co...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-13 16:23:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause'
+[Method: GET, Route: show_cas]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 16:23:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 16:23:36 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-13 16:23:59 --> mysqli_sql_exception: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT group_co...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT group_co...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT group_co...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_co...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-13 16:23:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause'
+[Method: GET, Route: show_cas]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 16:23:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 16:23:59 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-11-13 16:24:01 --> mysqli_sql_exception: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause' in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT group_co...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT group_co...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT group_co...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_co...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-13 16:24:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause'
+[Method: GET, Route: show_cas]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 16:24:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-13 16:24:01 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_vendor_terms_setup.store_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = \'S4607\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT group_concat(DISTINCT store SEPARATOR \', \') as stores
+FROM `tbl_supplier_vendor_codes`
+INNER JOIN `tbl_stores` ON `tbl_vendor_terms_setup`.`store_id` = `tbl_stores`.`store_id`
+WHERE `vendor_code` = :vendor_code:', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(71): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Concession.php(16): App\Models\supplier\Concession_model->getstores_concat('S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->show_cas()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-13 16:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 16:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 16:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 16:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

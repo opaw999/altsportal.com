@@ -1,0 +1,33 @@
+/vendor/
+/node_modules/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Writable/cache/logs
+/writable/*
+!/writable/.htaccess
+!/writable/index.html
+/writable/cache/*
+/writable/logs/*
+/writable/session/*
+/writable/uploads/*
+/writable/debugbar/*
+!/writable/cache/index.html
+!/writable/logs/index.html
+!/writable/session/index.html
+!/writable/uploads/index.html
+!/writable/debugbar/index.html
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# PHP
+.phpunit.result.cache
+.phpunit.cache/

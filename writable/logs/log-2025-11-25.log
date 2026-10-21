@@ -1,0 +1,544 @@
+DEBUG - 2025-11-25 09:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 09:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 09:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 09:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 09:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 09:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 09:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 09:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 09:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 09:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-25 09:42:38 --> ErrorException: Undefined variable $receivedstat
+[Method: GET, Route: view_po]
+in APPPATH\Controllers\Concession.php on line 406.
+ 1 APPPATH\Controllers\Concession.php(406): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $receivedstat', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 406)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_po()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 09:43:29 --> ErrorException: Undefined variable $receivedstat
+[Method: GET, Route: view_po]
+in APPPATH\Controllers\Concession.php on line 406.
+ 1 APPPATH\Controllers\Concession.php(406): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $receivedstat', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 406)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->view_po()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-25 09:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 09:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 09:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 10:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 10:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-25 10:13:15 --> ErrorException: Undefined variable $ctr
+[Method: GET, Route: vendor_sales_pdf/11483]
+in APPPATH\Controllers\Concession.php on line 746.
+ 1 APPPATH\Controllers\Concession.php(746): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ctr', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 746)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 11:09:11 --> ErrorException: Undefined variable $vendorcode
+[Method: GET, Route: vendor_sales_pdf/11483]
+in APPPATH\Controllers\Concession.php on line 761.
+ 1 APPPATH\Controllers\Concession.php(761): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vendorcode', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 761)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 11:10:32 --> ErrorException: Undefined variable $vendorcode
+[Method: GET, Route: vendor_sales_pdf/11483]
+in APPPATH\Controllers\Concession.php on line 761.
+ 1 APPPATH\Controllers\Concession.php(761): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vendorcode', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 761)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 11:10:52 --> ErrorException: Undefined variable $no
+[Method: GET, Route: vendor_sales_pdf/11483]
+in APPPATH\Controllers\Concession.php on line 777.
+ 1 APPPATH\Controllers\Concession.php(777): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 777)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 11:11:00 --> ErrorException: Undefined array key "ext_desc"
+[Method: GET, Route: vendor_sales_pdf/11483]
+in APPPATH\Controllers\Concession.php on line 785.
+ 1 APPPATH\Controllers\Concession.php(785): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ext_desc"', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 785)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 11:16:31 --> ErrorException: Undefined variable $no
+[Method: GET, Route: vendor_sales_pdf/11483]
+in APPPATH\Controllers\Concession.php on line 777.
+ 1 APPPATH\Controllers\Concession.php(777): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 777)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11483')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 11:16:44 --> ErrorException: A non-numeric value encountered
+[Method: GET, Route: vendor_sales_pdf/11471]
+in APPPATH\Controllers\Concession.php on line 764.
+ 1 APPPATH\Controllers\Concession.php(764): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 764)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11471')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 11:16:52 --> ErrorException: A non-numeric value encountered
+[Method: GET, Route: vendor_sales_pdf/11471]
+in APPPATH\Controllers\Concession.php on line 764.
+ 1 APPPATH\Controllers\Concession.php(764): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 764)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11471')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-25 11:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 11:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 11:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 11:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 11:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 11:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-25 11:56:07 --> ErrorException: Undefined variable $itemdivname
+[Method: GET, Route: vendor_sales_pdf/7288]
+in APPPATH\Controllers\Concession.php on line 791.
+ 1 APPPATH\Controllers\Concession.php(791): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemdivname', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 791)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('7288')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 11:56:57 --> ErrorException: Undefined array key "division_name"
+[Method: GET, Route: vendor_sales_pdf/7288]
+in APPPATH\Controllers\Concession.php on line 791.
+ 1 APPPATH\Controllers\Concession.php(791): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "division_name"', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 791)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('7288')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 11:57:28 --> ErrorException: Undefined array key "division_name"
+[Method: GET, Route: vendor_sales_pdf/7288]
+in APPPATH\Controllers\Concession.php on line 791.
+ 1 APPPATH\Controllers\Concession.php(791): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "division_name"', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 791)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('7288')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-25 14:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 14:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 14:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 14:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 14:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 14:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 15:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 15:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 15:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 15:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 15:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 15:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 15:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 15:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 15:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 15:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 15:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-25 15:05:46 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "34=2021-11-22=Profile=11-24-19-AM.jpg"
+[Method: GET, Route: assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('assets/img/user/34=2021-11-22=Profile=11-24-19-AM.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-25 15:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 15:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 15:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 15:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 15:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 15:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-25 15:53:04 --> ErrorException: Undefined variable $html
+[Method: GET, Route: vendor_sales_pdf/11320]
+in APPPATH\Controllers\Concession.php on line 697.
+ 1 APPPATH\Controllers\Concession.php(697): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $html', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 697)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11320')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 15:53:15 --> ErrorException: Undefined variable $html
+[Method: GET, Route: vendor_sales_pdf/11320]
+in APPPATH\Controllers\Concession.php on line 697.
+ 1 APPPATH\Controllers\Concession.php(697): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $html', 'C:\\laragon\\www\\altsportal.com\\app\\Controllers\\Concession.php', 697)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Concession->vendor_sales_pdf('11320')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Concession))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-25 15:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 15:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 15:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 15:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 15:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 15:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 15:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 16:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 16:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 16:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-25 16:18:18 --> Error: Call to a member function cDF() on null
+[Method: GET, Route: page/menu/cms/check]
+in APPPATH\Views\body\cms\check\check.php on line 58.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/check/check', [], true)
+ 4 APPPATH\Controllers\Page.php(83): view('body/cms/check/check', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'check')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-25 16:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-25 16:18:53 --> Error: Call to a member function cDF() on null
+[Method: GET, Route: page/menu/cms/check]
+in APPPATH\Views\body\cms\check\check.php on line 58.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/check/check', [], true)
+ 4 APPPATH\Controllers\Page.php(83): view('body/cms/check/check', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'check')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-25 16:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-25 16:18:59 --> Error: Call to a member function getfrmtblwhere() on null
+[Method: GET, Route: page/menu/cms/check]
+in APPPATH\Views\body\cms\check\check.php on line 58.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/check/check', [], true)
+ 4 APPPATH\Controllers\Page.php(83): view('body/cms/check/check', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'check')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-25 16:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 16:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 16:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 16:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 16:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 16:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 16:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 16:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 16:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 16:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 16:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-25 16:40:15 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: page/menu/cms/check]
+in APPPATH\Views\body\cms\check\check.php on line 51.
+ 1 APPPATH\Views\body\cms\check\check.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\check\\check.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\altsportal.com\\app\\Views\\body\\cms\\check\\check.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('body/cms/check/check', [], true)
+ 5 APPPATH\Controllers\Page.php(83): view('body/cms/check/check', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'check')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-25 16:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 16:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-25 16:40:35 --> mysqli_sql_exception: Table 'duxvwc44_altstk.tbl_check_monitorings' doesn't exist in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tbl_che...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_che...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_che...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_che...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(61): App\Models\supplier\Concession_model->get_check('S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'check')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-25 16:40:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altstk.tbl_check_monitorings' doesn't exist
+[Method: GET, Route: page/menu/cms/check]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = :vendor_code:
+ORDER BY `cv_date` DESC', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(61): App\Models\supplier\Concession_model->get_check('S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'check')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 16:40:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altstk.tbl_check_monitorings' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = \'S4607\'
+ORDER BY `cv_date` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = \'S4607\'
+ORDER BY `cv_date` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = :vendor_code:
+ORDER BY `cv_date` DESC', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(61): App\Models\supplier\Concession_model->get_check('S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'check')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 16:40:35 --> [Caused by] mysqli_sql_exception: Table 'duxvwc44_altstk.tbl_check_monitorings' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = \'S4607\'
+ORDER BY `cv_date` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = \'S4607\'
+ORDER BY `cv_date` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = \'S4607\'
+ORDER BY `cv_date` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = :vendor_code:
+ORDER BY `cv_date` DESC', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(61): App\Models\supplier\Concession_model->get_check('S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'check')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-25 16:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-25 16:40:45 --> mysqli_sql_exception: Table 'duxvwc44_altstk.tbl_check_monitorings' doesn't exist in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tbl_che...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_che...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_che...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_che...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(61): App\Models\supplier\Concession_model->get_check('S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'check')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-25 16:40:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altstk.tbl_check_monitorings' doesn't exist
+[Method: GET, Route: page/menu/cms/check]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = :vendor_code:
+ORDER BY `cv_date` DESC', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(61): App\Models\supplier\Concession_model->get_check('S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'check')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 16:40:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altstk.tbl_check_monitorings' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = \'S4607\'
+ORDER BY `cv_date` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = \'S4607\'
+ORDER BY `cv_date` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = :vendor_code:
+ORDER BY `cv_date` DESC', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(61): App\Models\supplier\Concession_model->get_check('S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'check')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 16:40:45 --> [Caused by] mysqli_sql_exception: Table 'duxvwc44_altstk.tbl_check_monitorings' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = \'S4607\'
+ORDER BY `cv_date` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = \'S4607\'
+ORDER BY `cv_date` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = \'S4607\'
+ORDER BY `cv_date` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = :vendor_code:
+ORDER BY `cv_date` DESC', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(61): App\Models\supplier\Concession_model->get_check('S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'check')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-25 16:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-25 16:41:06 --> mysqli_sql_exception: Table 'duxvwc44_altstk.tbl_check_monitorings' doesn't exist in C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\altsportal.com\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tbl_che...', 0)
+#1 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_che...')
+#2 C:\laragon\www\altsportal.com\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_che...')
+#3 C:\laragon\www\altsportal.com\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_che...', Array, false)
+#4 C:\laragon\www\altsportal.com\app\Models\supplier\Concession_model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\altsportal.com\app\Controllers\Page.php(61): App\Models\supplier\Concession_model->get_check('S4607')
+#6 C:\laragon\www\altsportal.com\system\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'check')
+#7 C:\laragon\www\altsportal.com\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#8 C:\laragon\www\altsportal.com\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\altsportal.com\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\altsportal.com\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\altsportal.com\public\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-25 16:41:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altstk.tbl_check_monitorings' doesn't exist
+[Method: GET, Route: page/menu/cms/check]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = :vendor_code:
+ORDER BY `cv_date` DESC', [...], false)
+ 2 APPPATH\Models\supplier\Concession_model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Page.php(61): App\Models\supplier\Concession_model->get_check('S4607')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'check')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 16:41:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'duxvwc44_altstk.tbl_check_monitorings' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = \'S4607\'
+ORDER BY `cv_date` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = \'S4607\'
+ORDER BY `cv_date` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = :vendor_code:
+ORDER BY `cv_date` DESC', [...], false)
+ 4 APPPATH\Models\supplier\Concession_model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Page.php(61): App\Models\supplier\Concession_model->get_check('S4607')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'check')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 16:41:06 --> [Caused by] mysqli_sql_exception: Table 'duxvwc44_altstk.tbl_check_monitorings' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = \'S4607\'
+ORDER BY `cv_date` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = \'S4607\'
+ORDER BY `cv_date` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = \'S4607\'
+ORDER BY `cv_date` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_check`.`cv_no`, `total_paid_amt`, `check_status`, `check_release_date`, `bank_name`, `check_date`, `check_no`
+FROM `tbl_check_monitorings` as `tbl_check`
+INNER JOIN `tbl_check_details` ON `tbl_check`.`cv_no` = `tbl_check_details`.`cv_no`
+WHERE `vendor_code` = :vendor_code:
+ORDER BY `cv_date` DESC', [...], false)
+ 5 APPPATH\Models\supplier\Concession_model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Page.php(61): App\Models\supplier\Concession_model->get_check('S4607')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->menu('cms', 'check')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-25 18:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 18:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
